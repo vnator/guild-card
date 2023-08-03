@@ -1,6 +1,10 @@
 .template {
     height: 100vh;
     background-image: var(--background-image);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: calc(var(--space-lg) * 2);
 }
 
 .test {
