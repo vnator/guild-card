@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "stylelint-declaration-use-variable"
+    ],
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-html/html",
+        "stylelint-config-html/xml",
+        "stylelint-config-html/astro"
+    ],
+    "rules": {
+        "sh-waqar/declaration-use-variable": [[
+            "/color/",
+            "background",
+            "margin",
+            "padding",
+            "z-index",
+            "font-size"
+        ]]
+    }
+}

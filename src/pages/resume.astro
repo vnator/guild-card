@@ -1,0 +1,23 @@
+---
+import { Resume as ResumeApp } from '../app/resume'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+		<ResumeApp>
+			<header slot="header">headerzinho</header>
+			<content slot="content">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ratione facere quaerat ab accusantium, mollitia deserunt iure consectetur adipisci reprehenderit, quibusdam impedit accusamus similique sequi ex debitis voluptatum voluptate! Consectetur?
+			</content>
+			<footer slot="footer">footerzinhox'</footer>
+		</ResumeApp>
+	</body>
+</html>

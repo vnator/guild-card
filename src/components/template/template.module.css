@@ -1,0 +1,16 @@
+.template {
+    height: 100vh;
+    background-image: var(--background-image);
+}
+
+.test {
+    width: 80%;
+    height: 200px;
+	color: var(--white);
+}
+
+.another {
+	width: 80%;
+	height: 200px;
+	color: var(--white);
+}

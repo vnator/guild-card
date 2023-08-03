@@ -1,0 +1,33 @@
+---
+import backgroundImage  from '../assets/wallpaper-discord.jpeg';
+import { Template } from '../components/template'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<style define:vars={{ backgroundImage: `url(${backgroundImage.src})` }}>
+		:root {
+			--background-image: var(--backgroundImage);
+      --white: #fff;
+		}
+
+		body, div, header, main, section, footer {
+			display: block;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+	</style>
+	<body>
+		<Template>
+			<slot />
+		</Template>
+	</body>
+</html>
