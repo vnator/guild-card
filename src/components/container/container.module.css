@@ -7,3 +7,10 @@
 	padding: var(--zero);
 	position: relative;
 }
+
+
+@media (width <= 37.5em) {
+	.container {
+		width: var(--container-width-sm);
+	}
+}
