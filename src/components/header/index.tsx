@@ -12,6 +12,10 @@ export const Header = () => (
           <picture className={style.picture}>
             <img src={profile.src} alt='João Henrique Serodio' />
           </picture>
+          <div className={style.info}>
+            <h2 className={style.name}> João Henrique Serodio </h2>
+            <h3 className={style.employ}> Software Engineer </h3>
+          </div>
         </div>
       </div>
     </Container>

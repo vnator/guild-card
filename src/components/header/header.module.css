@@ -1,7 +1,9 @@
 
 
 .header {
-	--height: 7rem;
+	--height: 3rem;
+	--height-bg: 7rem;
+	--height-full: calc(var(--height) + var(--height-bg))
 
 	height: var(--height);
 }
@@ -11,9 +13,10 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border: 1px solid var(--white-100);
 	border-bottom: none;
 	filter: blur(4px);
-	height: var(--height);
+	height: var(--height-bg);
 	width: 100%;
 	position: absolute;
 	left: 0;
@@ -21,35 +24,48 @@
 }
 
 .content {
-	border: 1px solid var(--white-100);
+	border-bottom: 0;
 	box-shadow:  0 -8px 18px 1px var(--black-600);
 	border-top-left-radius: var(--radius-lg);
 	border-top-right-radius: var(--radius-lg);
 	height: var(--height);
-	color: var(--white);
+	padding-top: var(--height-bg);
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+	z-index: 99999;
 }
-
 
 .picture {
 	height: 10rem;
-	width: 10rem;
+	width: 10rem; 
 	overflow: hidden;
 	border-radius: 50%;
 	display: flex;
     justify-content: center;
     align-items: center;
 	border: 3px solid var(--white-100);
-	margin-bottom: -5rem;
-	z-index: 99999;
+	line-height: 0;
+	position: absolute;
+	left: calc(50% - 5rem);
+	bottom: -5rem;
 }
-
 
 .picture img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.info {
+	background-color: var(--white);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: var(--space-lg);
+	padding-right: var(--space-lg);
+}
+
+.name, .employ {
+	margin-top: var(--space-lg);
+	color: var(--gray-700);
 }
