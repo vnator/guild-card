@@ -36,13 +36,13 @@
 	--zero: 0;
 	--space: 0.5rem;
 	--space-sm: 0.125rem;
-	--space-lg: 1.25rem;
+	--space-lg: .8rem;
 	--radius: 0.5rem;
 	--radius-sm: 0.25rem;
 	--radius-lg: 1rem;
 
 	/* template */
-	--container-width: 80rem;
+	--container-width: 100rem;
 	--container-width-sm: calc(100vw - (var(--space)*2));
 
 

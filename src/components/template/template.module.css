@@ -1,23 +1,40 @@
 .template {
+	--background-width: calc( var(--container-width) + var(--space-lg) );
+
     height: 100vh;
     background-image: var(--background-image);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: var(--space);
+	padding-top: var(--space-lg);
+	position: relative;
 }
 
-.test {
-    width: 80%;
-    height: 200px;
-	color: var(--white);
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
 }
 
-.another {
-	width: 80%;
-	height: 200px;
-	color: var(--white);
+.border {
+	height: 100%;
+	width: var(--background-width);
+	background: linear-gradient(130deg, var(--primary-dark),var(--primary-light) 61.07%,var(--secondary) 86.05%);
+	box-shadow:  0 -4px 8px 3px var(--black);
+	border-radius: var(--radius);
 }
+
+.layer {
+	height: 100%;
+	width: var(--container-width);
+	background: var(--white);
+	margin: calc(var(--space-lg) / 2);
+	border-radius: var(--radius);
+}
+
+.content {}
 
 
 @media (width <= 37.5em) {

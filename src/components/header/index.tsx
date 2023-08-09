@@ -5,7 +5,6 @@ import profile from '../../assets/profile.jpeg'
 
 export const Header = () => (
   <header className={style.header}>
-    <Container>
       <div>
         <div className={style.background} />
         <div className={style.content}>
@@ -18,6 +17,5 @@ export const Header = () => (
           </div>
         </div>
       </div>
-    </Container>
   </header>
 )
