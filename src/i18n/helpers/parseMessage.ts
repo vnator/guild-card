@@ -17,3 +17,5 @@ export const parseMessages: ParseMessage = (nestedMessages, prefix = '') =>
         return { ...prev, ...parseMessages(value, prefixedKey) };
       }, {})
     : {};
+
+    
