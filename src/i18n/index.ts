@@ -8,10 +8,12 @@ export const defaultLang = 'en';
 const messages = {
   en: {
     resume: {},
-    coverLetter: {}
+    coverLetter: {},
+    me: {}
   },
   ptBR: {
     resume: {},
-    coverLetter: {}
+    coverLetter: {},
+    me: {}
   },
 } as const;
