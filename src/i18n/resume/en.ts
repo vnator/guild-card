@@ -75,17 +75,19 @@ export const resumeEn = {
     }
   },
   interests: {
-    Basktball: 'Basktball',
+    Basktball: 'Basketball',
     survivalist: 'Survivalist',
     book: 'Books <3',
     hq: 'HQs',
     videoGame: 'Video Games',
     movie: 'Movies',
     ranch: 'Ranch and Horses',
-    cook: 'Cook and Barbucue',
+    cook: 'Cook and Barbecue',
   },
   stack: {
+    label: 'Hard Skills',
     developer: {
+      label: 'Developer Skills',
       aws: {
         label: 'AWS Amazon Web Service',
         cloudformation: 'Cloudformation',
@@ -133,6 +135,7 @@ export const resumeEn = {
       microfrontends: 'Micro Front-ends',
     },
     frontend: {
+      label: 'Front-end Skills',
       js: 'Javascript ES2015++',
       html: {      
         label: 'HTML (Hyper Text Markup Language)',
@@ -211,6 +214,7 @@ export const resumeEn = {
       firefoxAddon: 'Firefox Addon',
     },
     backend: {
+      label: 'Back-end Skills',
       node: {
         label: 'NodeJS and NodeTs',
         apollo: 'Apollo Server',

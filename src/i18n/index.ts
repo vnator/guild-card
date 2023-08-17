@@ -1,19 +1,19 @@
+import { coverLetterEn } from "./cover-letter/en";
+import { parseMessages } from "./helpers/parseMessage";
+import { meEn } from "./me/en";
+import { resumeEn } from "./resume/en";
+
 export const languages = {
   en: 'English',
   ptBR: 'Brazilian Portuguese',
 };
 
-export const defaultLang = 'en';
+export const defaultLang = 'en-US';
 
-const messages = {
-  en: {
-    resume: {},
-    coverLetter: {},
-    me: {}
-  },
-  ptBR: {
-    resume: {},
-    coverLetter: {},
-    me: {}
-  },
-} as const;
+export const ui = {
+  'en-US': parseMessages({
+    resume: resumeEn,
+    coverLetter: coverLetterEn,
+    me: meEn
+  }),
+}

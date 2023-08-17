@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
-import { Template } from '.';
+import { App } from '.';
 
 describe('Template Component', () => {
   it('simple test render', () => {
-    const wrap = render(<Template>filho</Template>)
+    const wrap = render(<App messages={{ me: 'serodio' }}>filho</App>)
 
     expect(wrap.container.textContent).toContain('carambolas')
   })

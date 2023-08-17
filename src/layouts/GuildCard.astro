@@ -1,6 +1,7 @@
 ---
 import backgroundImage  from '../assets/wallpaper-discord.jpeg';
-import { Template } from '../components/template'
+import { App } from '../components/app'
+import { ui, defaultLang } from '../i18n';
 import '../theme.css';
 ---
 
@@ -18,8 +19,8 @@ import '../theme.css';
     }
 	</style>
 	<body>
-		<Template>
+		<App messages={ui[defaultLang]} >
 			<slot />
-		</Template>
+		</App>
 	</body>
 </html>

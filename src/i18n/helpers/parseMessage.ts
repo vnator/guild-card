@@ -10,7 +10,7 @@ export const parseMessages: ParseMessage = (nestedMessages, prefix = '') =>
         if (typeof value === 'string') {
           return {
             ...prev,
-            [prefixedKey]: parse(value),
+            [prefixedKey]: value,
           };
         }
 
