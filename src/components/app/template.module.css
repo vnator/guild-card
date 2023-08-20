@@ -5,22 +5,22 @@
     min-height: 100vh;
     background-image: var(--background-image);
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	padding-top: var(--space-lg);
+	padding-bottom: calc(var(--space-lg) * 2);
 	position: relative;
 }
 
 .background {
 	width: 100%;
-	height: calc(100% - var(--space-lg));
+	min-height: calc(100% - var(--space-lg));
 	position: absolute;
 	display: flex;
 	justify-content: center;
 }
 
 .border {
-	height: calc(100% - (var(--space-lg)*2));
+	min-height: calc(100% - var(--space-lg));
+	margin-bottom: var(--space-lg);
 	width: var(--background-width);
 	background: linear-gradient(130deg, var(--primary-dark),var(--primary-light) 61.07%,var(--secondary) 86.05%);
 	box-shadow:  0 -4px 8px 3px var(--black);
@@ -28,7 +28,7 @@
 }
 
 .layer {
-	height: calc(100% - ((var(--space-lg))));
+	height: calc(100% - var(--space-lg));
 	width: var(--container-width);
 	background: var(--white);
 	margin: calc(var(--space-lg) / 2);

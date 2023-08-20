@@ -1,5 +1,3 @@
-import { Container } from "../container";
-
 import style from './header.module.css'
 import profile from '../../assets/profile.jpeg'
 import { useIntl } from "../../context/useInlt";
@@ -16,8 +14,8 @@ export const Header = () => {
               <img src={profile.src} alt={t('me.name')} />
             </picture>
             <div className={style.info}>
-              <h2 className={style.name}>{t('me.name')}</h2>
-              <h3 className={style.employ}>{t('me.employ')}</h3>
+              <h1 className={style.name}>{t('me.name')}</h1>
+              <h2 className={style.employ}>{t('me.employ')}</h2>
             </div>
           </div>
         </div>

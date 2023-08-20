@@ -4,5 +4,5 @@ import { IntlContext } from "./intlContext"
 export const useIntl = () => {
   const intl = useContext(IntlContext);
 
-  return (key: string) => intl ? intl[key] : 'carambolas';
+  return (key: string) => intl ? intl[key] : key;
 }

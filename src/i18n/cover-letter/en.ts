@@ -1,8 +1,8 @@
-const {
-  ASTRO_APP_COMPANY_NAME: companyName,
-  ASTRO_APP_COMPANY_RESPONSABLE: companyResponsable,
-  ASTRO_APP_COMPANY_POSITION: companyPosition
-} = process.env;
+import {
+  COMPANY_NAME as companyName,
+  COMPANY_RESPONSABLE as companyResponsable,
+  COMPANY_POSITION as companyPosition
+} from '../helpers/constants'
 
 export const coverLetterEn = {
   hi: `Hi ${companyResponsable ?? companyName}`,
