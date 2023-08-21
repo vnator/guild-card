@@ -7,7 +7,7 @@ export const parseMessages: ParseMessage = (nestedMessages, prefix = '') =>
         const [key, value] = cur;
         const prefixedKey = prefix ? `${prefix}.${key}` : key;
 
-        if (typeof value === 'string') {
+        if (typeof value === 'string' || typeof value === 'number') {
           return {
             ...prev,
             [prefixedKey]: value,

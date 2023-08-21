@@ -1,7 +1,7 @@
 import { useIntl } from '../../context/useInlt';
 import style from './resume.module.css'
 import { meEn } from '../../i18n/me/en';
-import { takeEntriesList, takeKeyList } from '../../i18n/helpers/takeAList';
+import { takeKeyList } from '../../i18n/helpers/takeAList';
 import { resumeEn } from '../../i18n/resume/en';
 import type { ExcludeItl, GenericRecord } from '../../i18n/helpers/types';
 
@@ -21,7 +21,6 @@ export const Resume = () => {
 
   // Resume Hard Skills
   const { stack } = resumeEn;
-
   type StackKey = ExcludeItl<keyof typeof stack>;
 
   type DeveloperStack = ExcludeItl<keyof typeof stack.developer>;
@@ -33,219 +32,10 @@ export const Resume = () => {
     | FrontEndStack
     | BackEndStack
 
-  type StackLevel<T extends string> = {
-    [Property in T | string]: {
-      level: number;
-      years: number;
-    }
+  type Tech = {
+    [index in keyof TechKey]?: GenericRecord
   }
 
-  const backendListLevel: StackLevel<BackEndStack> = {
-    deno: {
-      level: 8,
-      years: 2,
-    },
-    java: {
-      level: 6,
-      years: 8,
-    },
-    dynamoDB: {
-      level: 6,
-      years: 2,
-    },
-    kafka: {
-      level: 6,
-      years: 3,
-    },
-    mongoDB: {
-      level: 7,
-      years: 4,
-    },
-    node: {
-      level: 9,
-      years: 12,
-    },
-    postgreSQL: {
-      level: 7,
-      years: 8,
-    },
-    rabbitMq: {
-      level: 6,
-      years: 3,
-    },
-    redis: {
-      level: 5,
-      years: 4,
-    },
-    Rust: {
-      level: 6,
-      years: 4,
-    },
-  }
-
-  const developerListLevel: StackLevel<DeveloperStack> = {
-    aws: {
-      level: 6,
-      years: 5,
-    },
-    bdd: {
-      level: 6,
-      years: 6,
-    },
-    cicd: {
-      level: 8,
-      years: 8,
-    },
-    ddd: {
-      level: 5,
-      years: 5,
-    },
-    docker: {
-      level: 7,
-      years: 5,
-    },
-    elk: {
-      level: 6,
-      years: 5,
-    },
-    firebase: {
-      level: 6,
-      years: 2,
-    },
-    fp: {
-      level: 8,
-      years: 9,
-    },
-    git: {
-      level: 8,
-      years: 12,
-    },
-    graphQL: {
-      level: 7,
-      years: 5,
-    },
-    linux: {
-      level: 7,
-      years: 14,
-    },
-    microfrontends: {
-      level: 8,
-      years: 7,
-    },
-    microservices: {
-      level: 6,
-      years: 7,
-    },
-    newRelic: {
-      level: 6,
-      years: 3,
-    },
-    oop: {
-      level: 8,
-      years: 14,
-    },
-    rest: {
-      level: 8,
-      years: 10,
-    },
-    sentry: {
-      level: 7,
-      years: 3,
-    },
-    tdd: {
-      level: 8,
-      years: 6,
-    },
-    workflow: {
-      level: 8,
-      years: 7,
-    },
-  }
-
-  const frontendListLevel: StackLevel<FrontEndStack> = {
-    angular: {
-      level: 7,
-      years: 6,
-    },
-    astro: {
-      level: 8,
-      years: 2,
-    },
-    chromeExtension: {
-      level: 7,
-      years: 2,
-    },
-    css: {
-      level: 10,
-      years: 16,
-    },
-    dataFetch: {
-      level: 9,
-      years: 12,
-    },
-    designSystems: {
-      level: 9,
-      years: 10,
-    },
-    elm: {
-      level: 7,
-      years: 3,
-    },
-    engineering: {
-      level: 8,
-      years: 12,
-    },
-    firefoxAddon: {
-      level: 6,
-      years: 2,
-    },
-    html: {
-      level: 10,
-      years: 16,
-    },
-    i18n: {
-      level: 9,
-      years: 8,
-    },
-    js: {
-      level: 10,
-      years: 16,
-    },
-    nextJS: {
-      level: 8,
-      years: 7,
-    },
-    reactJs: {
-      level: 10,
-      years: 10,
-    },
-    tests: {
-      level: 9,
-      years: 8,
-    },
-    typescript: {
-      level: 9,
-      years: 5,
-    },
-    wasm: {
-      level: 6,
-      years: 4,
-    },
-    workers: {
-      level: 8,
-      years: 6,
-    },
-  }
-
-  interface StackLevelList extends Record<
-    StackKey | string, StackLevel<BackEndStack> | StackLevel<FrontEndStack> | StackLevel<DeveloperStack>
-  >{}
-
-  const stackLevelList: StackLevelList = {
-    backend: backendListLevel,
-    frontend: frontendListLevel,
-    developer: developerListLevel,
-  }
 
   // Resume Jobs
   const jobs = takeKeyList(resumeEn.jobs)
@@ -323,41 +113,45 @@ export const Resume = () => {
 
         <div className={style.slot}>
           <div className='Stack'>
-            <h2>{t('resume.stack.label')}</h2>
-            <div className={style.half}>
+            <h2>{t('resume.stack.title')}</h2>
 
-            {takeKeyList(stack).map((stackKey) => (
+            {takeKeyList(stack).map((stackKey) => {
+              const techs = stack[stackKey as StackKey];
+              return (
+              <div className={style.half}>
+                <h3>
+                  {t(`resume.stack.${stackKey}.label`)}
+                </h3>
+
                 <ul>
-                  <li>
-                    <strong>
-                      {t(`resume.stack.${stackKey}.label`)}
-                    </strong>
-                  </li>
-                  {takeEntriesList(stack[stackKey as StackKey]).map(([techKey, techValue]) => {
-                    if (typeof techValue === 'string') {
-                      return <li>
-                        {t(`resume.stack.${stackKey}.${techKey}`)}
-                        {` `} - level: {stackLevelList[stackKey][techKey].level}
-                        {` `} - years: {stackLevelList[stackKey][techKey].years}
-                      </li>
-                    }
-
-
-                    return <li>
+                {takeKeyList(techs).map(tech => {
+                  const subTechs: Tech = techs[tech];
+                  return (
+                    <li>
+                      <strong>{t(`resume.stack.${stackKey}.${tech}.label`)}</strong>
                       <span>
-                        {t(`resume.stack.${stackKey}.${techKey}.label`)}
-                        {` `} - level: {stackLevelList[stackKey][techKey].level}
-                        {` `} - years: {stackLevelList[stackKey][techKey].years}
+                        {t(`resume.stack.label.level`)}:
+                        {t(`resume.stack.${stackKey}.${tech}.level`)}
                       </span>
-                      <ul>
-                      {takeKeyList(techValue).map(sub => <li>{t(`resume.stack.${stackKey}.${techKey}.${sub}`)}</li>)}
-                      </ul>
+                      - 
+                      <span>
+                        {t(`resume.stack.label.years`)}:
+                        {t(`resume.stack.${stackKey}.${tech}.years`)}
+                      </span>
+                      {subTechs?.sub &&
+                        <ul>
+                          {takeKeyList(subTechs?.sub).map(sub => 
+                            <li>{t(`resume.stack.${stackKey}.${tech}.sub.${sub}`)}</li>
+                          )}
+                        </ul>}
                     </li>
-                  })}
+                )
+                })}
                 </ul>
-              ))}
+              </div>
+            )
+            })}
 
-            </div>
           </div>
         </div>
       </div>
