@@ -6,6 +6,8 @@
 	--secondary: #E7366B;
 	--secondary-dark: #691830;
 	--secondary-light: #EC7D9E;
+	--bg: #10151d;
+	--border: #2e3c51;
 
 	/* GRAYSCALE */
 	--gray-50: #fafafa;
@@ -56,6 +58,18 @@
 	--size-button: 1.2rem;
 	--size-text: 1rem;
 	--size-caption: .85rem;
+
+	/* effects */
+	--gradient-grid: linear-gradient(
+		0deg, transparent 24%, var(--white-100) 25%,
+	  var(--white-100) 26%,  transparent 27%, transparent 74%,
+	  var(--white-100) 75%, var(--white-100) 76%, transparent 77%, transparent),
+	linear-gradient(
+		90deg, transparent 24%, var(--white-100) 25%, var(--white-100) 26%,
+		transparent 27%, transparent 74%, var(--white-100) 75%,
+		var(--white-100) 76%, transparent 77%, transparent)
+	--glass: transparent;
+	--shine: radial-gradient(500px 200px at 50% 0%,#131f33 20%,rgba(19,30,49,0) 100%);
 }
 
 /* typography */
