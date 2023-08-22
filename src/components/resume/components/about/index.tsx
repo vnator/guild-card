@@ -24,13 +24,13 @@ export const About = () => {
               </a>
             </div>
 
-            <div className={style.screen}>
-              <a href={`mailto:${t('me.contact.email.value')}`}>
+            
+              <a  className={style.screen} href={`mailto:${t('me.contact.email.value')}`}>
                 {t('me.contact.email.value')}
               </a>
-            </div>
+            
           </li>
-          <li>
+          <li className={style.item}>
             <div className={style.print}>
               <strong>
                 {t('me.contact.numberPhone.label')}
@@ -40,13 +40,13 @@ export const About = () => {
               </a>
             </div>
 
-            <div className={style.screen}>
-              <a href={`tel:${t('me.contact.numberPhone.value')}`}>
+            
+              <a  className={style.screen} href={`tel:${t('me.contact.numberPhone.value')}`}>
                 {t('me.contact.numberPhone.value')}
               </a>
-            </div>
+            
           </li>
-          <li>
+          <li className={style.item}>
             <div className={style.print}>
                 <strong>
                   {t('me.contact.github.label')}
@@ -56,13 +56,13 @@ export const About = () => {
                 </a>
             </div>
 
-            <div className={style.screen}>
-              <a href={`tel:${t('me.contact.github.value')}`}>
+            
+              <a  className={style.screen} href={`tel:${t('me.contact.github.value')}`}>
                 {t('me.contact.github.label')}
               </a>
-            </div>
+            
           </li>
-          <li>
+          <li className={style.item}>
             <div className={style.print}>
                 <strong>
                   {t('me.contact.linkedin.label')}
@@ -72,11 +72,11 @@ export const About = () => {
                 </a>
             </div>
 
-            <div className={style.screen}>
-              <a href={`tel:${t('me.contact.linkedin.value')}`}>
+            
+              <a  className={style.screen} href={`tel:${t('me.contact.linkedin.value')}`}>
                 {t('me.contact.linkedin.label')}
               </a>
-            </div>
+            
           </li>
         </ul>
       </div>

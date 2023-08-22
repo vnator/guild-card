@@ -13,8 +13,12 @@
 
 .background {
 	background-color: var(--glass);
+<<<<<<< Updated upstream
     background-image: var(--gradient-grid);
 	height:100%;
+=======
+    background-image: var(--gradient-grid-10);
+>>>>>>> Stashed changes
 	background-size: 10px 10px;
 	height: calc(var(--height-bg) + 0.6rem);
 	border-radius: var(--radius-lg);
@@ -63,11 +67,11 @@
 	box-sizing: border-box;
 	padding: var(--space-lg) calc(var(--space-lg) * 2);
 	border-top: 1px solid;
-	border-color: var(--border);
+	border-color: var(--primary);
 }
 
 .name, .employ {
-	color: var(--gray-700);
+	color: var(--primary-light);
 }
 
 @media (width <= 37.5em) {

@@ -1,5 +1,6 @@
 :root {
 	/* colors */
+<<<<<<< Updated upstream
 	--primary: #5865f2;
 	--primary-dark: #292F73;
 	--primary-light: #A1A8F4;
@@ -8,6 +9,13 @@
 	--secondary-light: #EC7D9E;
 	--bg: #10151d;
 	--border: #2e3c51;
+=======
+	--primary: #2e3c51;
+	--primary-light: #324661;
+	--primary-lightest: #5f83b3;
+	--primary-dark: #1d242e;
+	--primary-darkest: #10151d;
+>>>>>>> Stashed changes
 
 	/* GRAYSCALE */
 	--gray-50: #fafafa;
@@ -27,6 +35,7 @@
 	--white-200: rgba(255,255,255, 20%);
 	--white-400: rgba(255,255,255, 40%);
 	--white-600: rgba(255,255,255, 60%);
+	--white-600: rgba(255,255,255, 80%);
 
 	/* BLACK ALPHASCALE */
 	--black: #000;
@@ -60,6 +69,7 @@
 	--size-caption: .85rem;
 
 	/* effects */
+<<<<<<< Updated upstream
 	--gradient-grid: linear-gradient(
 		0deg, transparent 24%, var(--white-100) 25%,
 	  var(--white-100) 26%,  transparent 27%, transparent 74%,
@@ -70,6 +80,28 @@
 		var(--white-100) 76%, transparent 77%, transparent)
 	--glass: transparent;
 	--shine: radial-gradient(500px 200px at 50% 0%,#131f33 20%,rgba(19,30,49,0) 100%);
+=======
+	--glass: transparent;
+	--gradient-grid-10: 
+		linear-gradient(
+			0deg, transparent 24%, var(--white-10) 25%,
+		var(--white-10) 26%,  transparent 27%, transparent 74%,
+		var(--white-10) 75%, var(--white-10) 76%, transparent 77%, transparent),
+		linear-gradient(
+			90deg, transparent 24%, var(--white-10) 25%, var(--white-10) 26%,
+			transparent 27%, transparent 74%, var(--white-10) 75%,
+			var(--white-10) 76%, transparent 77%, transparent
+		);
+	--gradient-grid-30: 
+		linear-gradient(
+			0deg, transparent 24%, var(--white-30) 25%,
+			var(--white-30) 26%, transparent 27%, transparent 74%,
+			var(--white-30) 75%, var(--white-30) 76%, transparent 77%, transparent),
+		linear-gradient(
+			90deg, transparent 24%, var(--white-30) 25%, var(--white-30) 26%, transparent 27%,
+			transparent 74%, var(--white-30) 75%, var(--white-30) 76%, transparent 77%, transparent);
+	--shine: radial-gradient(500px 200px at 50% 0%, var(--primary-dark) 20%,var(--primary-darkest) 100%);
+>>>>>>> Stashed changes
 }
 
 /* typography */
@@ -96,14 +128,22 @@ body, div, header, main, section, footer {
 }
 
 .title {
+<<<<<<< Updated upstream
 	color: var(--gray-800);
+=======
+	color: var(--primary-lightest);
+>>>>>>> Stashed changes
 	font-size: var(--size-btn);
 	text-transform: uppercase;
 	margin-bottom: var(--space);
 }
 
 .subtitle {
+<<<<<<< Updated upstream
 	color: var(--gray-600);
+=======
+	color: var(--white-400);
+>>>>>>> Stashed changes
 	font-size: var(--size-caption);
 	text-transform: uppercase;
 	margin-bottom: var(--space);
