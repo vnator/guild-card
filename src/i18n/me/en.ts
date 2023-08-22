@@ -3,7 +3,7 @@ import {
   ME_GITHUB as github,
   ME_LINKEDIN as linkedin,
   ME_PHONE as phone,
-} from '../helpers/constants'
+} from '../../helpers/constants'
 
 
 export const meEn = {
@@ -34,6 +34,6 @@ export const meEn = {
   },
   education: {
     title: "Formal Education",
-    bachelor: "System Information Degree College at UCP(University of Centrl Paraná), Located at Pitanga City in State of Parana Brazil, between 2008 and 2012."
+    bachelor: "System Information Degree College at UCP(University of Central Parana), Located at Pitanga City in State of Parana Brazil, between 2008 and 2012."
   }
 }

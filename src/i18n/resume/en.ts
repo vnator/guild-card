@@ -394,7 +394,7 @@
   jobs: {
     title: 'Jobs',
     label: {
-      company: 'Company: ',
+      company: 'Company name',
       employ: 'Ocupation: ',
       started: 'Started in: ',
       finished: 'Finished in: ',

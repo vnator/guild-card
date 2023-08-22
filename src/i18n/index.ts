@@ -1,5 +1,5 @@
 import { coverLetterEn } from "./cover-letter/en";
-import { parseMessages } from "./helpers/parseMessage";
+import { parseMessages } from "../helpers/parseMessage";
 import { meEn } from "./me/en";
 import { resumeEn } from "./resume/en";
 

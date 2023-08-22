@@ -55,16 +55,23 @@
 	--size-subtitle: 2rem;
 	--size-button: 1.2rem;
 	--size-text: 1rem;
-	--size-caption: .75rem;
+	--size-caption: .85rem;
 }
 
 /* typography */
 h1, h2, h3, h4, h5, h6, .title {
-	font-family: var(--font-title)
+	font-family: var(--font-title);
+	margin: var(--space-sm) 0;
+	line-height: normal;
 }
 
-span, dt, dd, ul, li, ol, a, button, input, label {
-	font-family: var(--font-base)
+span, dt, dd, ul, li, ol, a, button, input, label, p, strong {
+	font-family: var(--font-base);
+	color: var(--gray-600);
+}
+
+p {
+	margin: var(--space-sm) 0;
 }
 
 body, div, header, main, section, footer {
@@ -73,3 +80,18 @@ body, div, header, main, section, footer {
 	padding: var(--zero);
 	box-sizing: border-box;
 }
+
+.title {
+	color: var(--gray-800);
+	font-size: var(--size-btn);
+	text-transform: uppercase;
+	margin-bottom: var(--space);
+}
+
+.subtitle {
+	color: var(--gray-600);
+	font-size: var(--size-caption);
+	text-transform: uppercase;
+	margin-bottom: var(--space);
+}
+

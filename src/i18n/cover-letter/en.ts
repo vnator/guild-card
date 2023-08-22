@@ -2,7 +2,7 @@ import {
   COMPANY_NAME as companyName,
   COMPANY_RESPONSABLE as companyResponsable,
   COMPANY_POSITION as companyPosition
-} from '../helpers/constants'
+} from '../../helpers/constants'
 
 export const coverLetterEn = {
   hi: `Hi ${companyResponsable ?? companyName}`,
