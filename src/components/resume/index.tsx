@@ -10,10 +10,6 @@ import { Stack } from './components/stack';
 import { WorkExperience } from './components/workExperience';
 
 export const Resume = () => {
-  const t = useIntl();
-  // Resume Jobs
-  const jobs = takeKeyList(resumeEn.jobs)
-
   return (
     <div>
       <About />

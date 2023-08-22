@@ -1,5 +1,4 @@
 ---
-import backgroundImage  from '../assets/wallpaper-discord.jpeg';
 import { App } from '../components/app'
 import { ui, defaultLang } from '../i18n';
 import '../theme.css';
@@ -13,11 +12,6 @@ import '../theme.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<style define:vars={{ backgroundImage: `url(${backgroundImage.src})` }}>
-		:root {
-      --background-image: var(--backgroundImage);
-    }
-	</style>
 	<body>
 		<App messages={ui[defaultLang]} >
 			<slot />
