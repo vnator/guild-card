@@ -14,8 +14,8 @@
 	display: flex;
 	justify-content: center;
 	background-color: var(--glass);
-    background-image: var(--gradient-grid);
-	height:100%;
+    background-image: var(--gradient-grid-30);
+	height: 100%;
 	background-size: 10px 10px;
 	margin-top: -20px;
 }
@@ -24,7 +24,7 @@
 	background-color: var(--bg);
 	background-image: var(--shine);
 	border: 1px solid;
-	border-color: var(--bd);
+	border-color: var(--border);
 	border-radius: var(--radius-lg);
 }
 

@@ -8,6 +8,7 @@
 	--secondary-light: #EC7D9E;
 	--bg: #10151d;
 	--border: #2e3c51;
+	--border-320: rgba(46, 60, 81, 32%);
 
 	/* GRAYSCALE */
 	--gray-50: #fafafa;
@@ -23,6 +24,8 @@
 	
 	/* WHITE ALPHASCALE */
 	--white: #fff;
+	--white-10: rgba(255,255,255, 1%);
+	--white-30: rgba(255,255,255, 3%);
 	--white-100: rgba(255,255,255, 10%);
 	--white-200: rgba(255,255,255, 20%);
 	--white-400: rgba(255,255,255, 40%);
@@ -60,16 +63,25 @@
 	--size-caption: .85rem;
 
 	/* effects */
-	--gradient-grid: linear-gradient(
-		0deg, transparent 24%, var(--white-100) 25%,
-	  var(--white-100) 26%,  transparent 27%, transparent 74%,
-	  var(--white-100) 75%, var(--white-100) 76%, transparent 77%, transparent),
-	linear-gradient(
-		90deg, transparent 24%, var(--white-100) 25%, var(--white-100) 26%,
-		transparent 27%, transparent 74%, var(--white-100) 75%,
-		var(--white-100) 76%, transparent 77%, transparent)
-	--glass: transparent;
-	--shine: radial-gradient(500px 200px at 50% 0%,#131f33 20%,rgba(19,30,49,0) 100%);
+	--gradient-grid-10: 
+		linear-gradient(
+			0deg, transparent 24%, var(--white-10) 25%,
+		var(--white-10) 26%,  transparent 27%, transparent 74%,
+		var(--white-10) 75%, var(--white-10) 76%, transparent 77%, transparent),
+		linear-gradient(
+			90deg, transparent 24%, var(--white-10) 25%, var(--white-10) 26%,
+			transparent 27%, transparent 74%, var(--white-10) 75%,
+			var(--white-10) 76%, transparent 77%, transparent
+		);
+	--gradient-grid-30: 
+		linear-gradient(
+			0deg, transparent 24%, var(--white-30) 25%,
+			var(--white-30) 26%, transparent 27%, transparent 74%,
+			var(--white-30) 75%, var(--white-30) 76%, transparent 77%, transparent),
+		linear-gradient(
+			90deg, transparent 24%, var(--white-30) 25%, var(--white-30) 26%, transparent 27%,
+			transparent 74%, var(--white-30) 75%, var(--white-30) 76%, transparent 77%, transparent);
+	--shine: radial-gradient(500px 200px at 50% 0%, var(--border-320) 20%,var(--bg) 100%);
 }
 
 /* typography */
@@ -96,14 +108,14 @@ body, div, header, main, section, footer {
 }
 
 .title {
-	color: var(--gray-800);
+	color: var(--white);
 	font-size: var(--size-btn);
 	text-transform: uppercase;
 	margin-bottom: var(--space);
 }
 
 .subtitle {
-	color: var(--gray-600);
+	color: var(--white-600);
 	font-size: var(--size-caption);
 	text-transform: uppercase;
 	margin-bottom: var(--space);

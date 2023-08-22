@@ -12,8 +12,8 @@
 }
 
 .background {
-	background-color: var(--glass);
-    background-image: var(--gradient-grid);
+	background-color: transparent;
+    background-image: var(--gradient-grid-10);
 	height:100%;
 	background-size: 10px 10px;
 	height: calc(var(--height-bg) + 0.6rem);

@@ -1,6 +1,8 @@
 .about {
 	padding: calc(var(--space-lg) * 2);
 	padding-top: calc(var(--space-lg) * 4);
+	border-bottom: 1px solid;
+	border-color: var(--border);
 }
 
 .bio {
