@@ -28,10 +28,6 @@
 	margin: 0 var(--space);
 }
 
-.print {
-	
-}
-
 .screen {
 	text-decoration: none;
 	color: var(--primary-light);

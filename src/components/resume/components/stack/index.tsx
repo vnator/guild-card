@@ -33,19 +33,23 @@ export const Stack = () => {
               {t(`resume.stack.${stackKey}.label`)}
             </h3>
 
-            <ul>
+            <ul className={style.techList}>
+                <li  className={style.techHead}>
+                  {t('resume.stack.label.level')}
+                </li>
             {takeKeyList(techs).map(tech => {
                 const subTechs = techs[tech as TechKey];
                 return (
-                  <li>
-                    <strong>{t(`resume.stack.${stackKey}.${tech}.label`)}</strong>
-                    {/* <span>
-                      {t(`resume.stack.label.level`)}:
-                      {t(`resume.stack.${stackKey}.${tech}.level`)}
-                    </span> */}
-                    <span>
-                      {/* {t(`resume.stack.label.years`)}:
-                      {t(`resume.stack.${stackKey}.${tech}.years`)} */}
+                  <li className={style.techItem}>
+                    <span className={style.tech}>
+                      <span
+                        className={style.level}
+                        style={{
+                          width: `${t(`resume.stack.${stackKey}.${tech}.level`)}0%`
+                        }} />
+                      <span className={style.techLabel}>
+                        {t(`resume.stack.${stackKey}.${tech}.label`)}
+                      </span>
                     </span>
                     {/* {subTechs?.sub &&
                       <ul>

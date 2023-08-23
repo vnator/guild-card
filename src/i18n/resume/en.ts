@@ -28,7 +28,7 @@
     developer: {
       label: 'Developer Skills',
       aws: {
-        label: 'AWS Amazon Web Service',
+        label: 'Amazon Web Service',
         level: 6,
         years: 5,
         sub: {
@@ -98,7 +98,7 @@
         years: 7,
       },
       cicd: {
-        label: 'Continuous integration and delivery',
+        label: 'Continuous integration, delivery',
         level: 8,
         years: 8,
         sub: {
@@ -110,13 +110,13 @@
       },
       ddd: {
         label: 'DDD (Domain Driven Design)',
-        level: 0,
-        years: 0,
+        level: 6,
+        years: 8,
       },
       bdd: {
         label: 'BDD (Behavior Driven Development)',
-        level: 0,
-        years: 0,
+        level: 5,
+        years: 4,
       },
       graphQL: {
         label: 'GraphQL APIs',
@@ -134,7 +134,7 @@
         years: 9,
       },
       oop: {
-        label: 'OOP (Oriented Object Programing)',
+        label: 'OOP (Object Oriented Programing)',
         level: 8,
         years: 14,
       },
@@ -294,18 +294,18 @@
       },
       workers: {
         label: 'Web Workers',
-        level: 0,
-        years: 0,
+        level: 6,
+        years: 4,
       },
       chromeExtension: {
         label: 'Chrome Extension',
-        level: 0,
-        years: 0,
+        level: 5,
+        years: 2,
       },
       firefoxAddon: {
         label: 'Firefox Addon',
-        level: 0,
-        years: 0,
+        level: 5,
+        years: 2,
       },
     },
     backend: {
@@ -385,7 +385,7 @@
         years: 4,
       },
       kafka: {
-        label: 'Apache Kafka distributed event streaming platform',
+        label: 'Apache Kafka',
         level: 6,
         years: 3,
       },

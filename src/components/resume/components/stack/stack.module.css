@@ -1,11 +1,100 @@
 .stackList {
+	--bar-size: 26px;
+	--shine-1: radial-gradient(500px 500px at 0% 0%, var(--black-600) 20%,var(--primary-darkest) 100%);
+	--shine-2: radial-gradient(500px 500px at 50% 0%, var(--black-600) 20%,var(--primary-darkest) 100%);
+	--shine-3: radial-gradient(500px 500px at 100% 0%, var(--black-600) 20%,var(--primary-darkest) 100%);
+
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding: calc(var(--space-lg) * 2);
 }
 
 .head {
 	width: 100%;
 	flex-grow: 1;
+	padding: calc(var(--space-lg) * 2) 0;
+	text-align: center;
 }
+
+.stackItem {
+	background-color: var(--black-100);
+	flex-grow: 1;
+	max-width: calc(100%/3);
+	padding: calc(var(--space-lg) * 2);
+	border: 1px solid;
+	border-color: var(--white-100);
+	border-left: 0;
+	border-right: 0;
+}
+
+.stackList .stackItem:nth-child(2) {
+	background-image: var(--shine-1);
+}
+
+.stackList .stackItem:nth-child(3) {
+	background-color: var(--black-200);
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: var(--white-100);
+	background-image: var(--shine-2);
+}
+
+.stackList .stackItem:last-child {
+	background-image: var(--shine-3);
+}
+
+.techList {
+	list-style: none;
+	padding: 0;
+}
+
+.techHead {
+	display: flex;
+	justify-content: space-between;
+}
+
+.techItem {
+	margin: var(--space) 0;
+	border: 1px solid var(--primary);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tech {
+	padding: var(--space);
+	height: var(--bar-size);
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	/* background-color: var(--primary-light); */
+}
+
+.level {
+	height: var(--bar-size);
+	display: block;
+	background-color: var(--primary);
+	opacity: 0.8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: var(--primary-dark);
+    background-image: var(--gradient-grid-30);
+	background-size: 6px 6px;
+	border-right: 1px solid var(--primary);
+}
+
+.techLabel {
+	height: var(--bar-size);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: var(--space);
+	color: var(--white-400);
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: var(--size-caption);
+}
+
+

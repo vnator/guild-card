@@ -30,6 +30,7 @@
 
 	/* BLACK ALPHASCALE */
 	--black: #000;
+	--black-100: rgba(0,0,0, 10%);
 	--black-200: rgba(0,0,0, 20%);
 	--black-400: rgba(0,0,0, 40%);
 	--black-600: rgba(0,0,0, 60%);
