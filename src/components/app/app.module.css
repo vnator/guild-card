@@ -21,10 +21,10 @@
 }
 
 .content {
-	background-color: var(--bg);
+	background-color: var(--primary-darkest);
 	background-image: var(--shine);
 	border: 1px solid;
-	border-color: var(--border);
+	border-color: var(--primary);
 	border-radius: var(--radius-lg);
 }
 
