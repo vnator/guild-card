@@ -11,35 +11,38 @@ export const SoftSkills = () => {
   const hobies = takeKeyList(resumeEn.interests)
 
   return (
-  
-  <div className={style.softSkills}>
-    <div className={style.item}>
-      <h2 className='title'>{t('resume.softSkills.title')}</h2>
-      <ul>
-        {softSkillsKeys.map(i => <li>{t(`resume.softSkills.${i}`)}</li>)}
-      </ul>
-    </div>
-  
-    <div className={style.item}>
-      <h2 className='title'>{t('resume.langs.title')}</h2>
-      <div className={style.half}>
-        <p>
+    <div className={style.softSkills}>
+      <div className={style.languages}>
+        <h2 className='title'>{t('resume.langs.title')}</h2>
+        <p className={style.lang}>
           <strong>{t('resume.langs.portuguese.label')}:</strong>
           <span>{t('resume.langs.portuguese.level')}</span>
-          </p>
-      </div>
+        </p>
 
-      <div className={style.half}>
-        <p>
+        <p className={style.lang}>
           <strong>{t('resume.langs.english.label')}:</strong>
           <span>{t('resume.langs.english.level')}</span>
-          </p>
+        </p>
       </div>
 
+      <div className={style.merits}>
+        <h2 className={style.title}>{t('resume.softSkills.title')}</h2>
+        <ul className={style.badgetList}>
+          {softSkillsKeys.map(i => <li className={style.badgetItem}>{t(`resume.softSkills.${i}`)}</li>)}
+        </ul>
+      </div>
+    
+
+      <div className={style.hobies}>
+        <h2 className={style.title}>{t('resume.interests.title')}</h2>
+        <ul className={style.badgetList}>
+          {hobies.map(hobie =>
+            <li className={style.badgetItem}>
+              {t(`resume.interests.${hobie}`)}
+            </li>
+          )}
+        </ul>
+      </div>
     </div>
-    <div className={style.item}>
-      <h2 className='title'>{t('resume.interests.title')}</h2>
-      {hobies.map(hobie => <li>{t(`resume.interests.${hobie}`)}</li>)}
-    </div>
-  </div>)
+  )
 }

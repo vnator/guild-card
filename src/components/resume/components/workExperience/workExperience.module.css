@@ -17,6 +17,9 @@
 
 .head {
 	text-align: center;
+	font-size: var(--size-subtitle);
+	text-transform: uppercase;
+	color: var(--primary-lightest);
 }
 
 .company {

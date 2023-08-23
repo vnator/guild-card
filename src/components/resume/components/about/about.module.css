@@ -1,4 +1,6 @@
 .about {
+	--contact-size: 2.25rem;
+
 	padding-top: calc(var(--space-lg) * 4);
 	border-bottom: 1px solid;
 	border-color: var(--primary);
@@ -25,7 +27,7 @@
 }
 
 .item {
-	margin: 0 var(--space);
+	margin: var(--zero) var(--space);
 }
 
 .screen {
@@ -35,6 +37,8 @@
 	border: 1px solid var(--primary-light);
 	border-radius: var(--radius-lg);
 	transition: 0.2s all ease;
+	height: var(--contact-size);
+	box-sizing: border-box;
 }
 
 .screen:hover {
@@ -51,17 +55,23 @@
 
 @media screen {
 	.list {
-		padding: 0;
+		padding: var(--zero);
 		margin-top: calc(var(--space)*3);
 		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.item {
+		height: var(--contact-size);
+		margin: var(--space-sm);
 	}
 
 	.list .item:first-child {
-		margin-left: 0;
+		margin-left: var(--zero);
 	}
 
 	.list .item:last-child {
-		margin-right: 0;
+		margin-right: var(--zero);
 	}
 
 	.print {
@@ -88,6 +98,6 @@
 
 	.contacts, .eductation {
 		flex-grow: 1;
-		border-right: 0;
+		border-right: var(--zero);
 	}
 }

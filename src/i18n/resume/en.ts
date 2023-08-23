@@ -470,7 +470,7 @@
     },
   },
   interests: {
-    title: 'My Hobies (interests)',
+    title: 'My Hobies',
     Basktball: 'Basketball',
     survivalist: 'Survivalist',
     book: 'Books <3',

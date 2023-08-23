@@ -9,7 +9,7 @@ export const WorkExperience = () => {
 
   return (
     <div className={style.works}>
-      <h2 className={`title ${style.head}`}>{t('resume.jobs.title')}</h2>
+      <h2 className={style.head}>{t('resume.jobs.title')}</h2>
       {jobs.map((job) => (
         <div className={style.job}>
           <h3 className={style.company} aria-label={t(`resume.jobs.label.company`)}>
