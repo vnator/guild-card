@@ -69,7 +69,7 @@
 	color: var(--primary-light);
 }
 
-@media (width <= 37.5em) {
+@media screen and (width <= 37.5em) {
 	.header {
 		--height: 6rem;
 		--height-bg: 5rem;
