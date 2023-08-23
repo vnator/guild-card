@@ -103,3 +103,21 @@
 	}
 }
 
+@media print {
+	.header {
+		--height: 1.5rem;
+		--height-bg: 4rem;
+		--height-full: calc(var(--height) + var(--height-bg));
+		--picture-size: 6rem;
+		--content-z: 99;
+	}
+
+	.name {
+		font-size: var(--size-subtitle);
+	}
+
+	.employ {
+		text-transform: uppercase;
+		font-size: var(--size-text);
+	}
+}

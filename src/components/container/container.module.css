@@ -9,8 +9,14 @@
 }
 
 
-@media (width <= 37.5em) {
+@media screen and (width <= 37.5em) {
 	.container {
 		width: var(--container-width-sm);
+	}
+}
+
+@media print {
+	.container {
+		width: 96vw;
 	}
 }

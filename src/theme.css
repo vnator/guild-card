@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6, .title {
 span, dt, dd, ul, li, ol, a, button, input, label, p, strong {
 	font-family: var(--font-base);
 	color: var(--gray-600);
+	font-size: var(--size-text);
 }
 
 p {
@@ -114,8 +115,35 @@ body, div, header, main, section, footer {
 
 .subtitle {
 	color: var(--white-400);
-	font-size: var(--size-caption);
+	font-size: var(--size-text);
 	text-transform: uppercase;
 	margin-bottom: var(--space);
 }
 
+@media print {
+	:root {
+		--zero: 0;
+		--space: 0.1rem;
+		--space-sm: 0.05rem;
+		--space-lg: .4rem;
+		--radius: 0.1rem;
+		--radius-sm: 0.05rem;
+		--radius-lg: 0.5rem;
+	
+
+		/* font size */
+		--size-title: 1.5rem;
+		--size-subtitle: 1rem;
+		--size-button: .8rem;
+		--size-text: .6rem;
+		--size-caption: .4rem;
+	}
+
+	.title {
+		font-size: var(--size-text);
+	}
+	
+	.subtitle {
+		font-size: var(--size-caption);
+	}
+}
