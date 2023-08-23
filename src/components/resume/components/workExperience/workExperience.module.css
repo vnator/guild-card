@@ -37,6 +37,10 @@
 }
 
 @media print {
+	.works {
+		padding-top: 120px;
+	}
+
 	.job {
 		display: flex;
 	}

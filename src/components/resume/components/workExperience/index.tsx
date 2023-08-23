@@ -11,7 +11,7 @@ export const WorkExperience = () => {
     <div className={style.works}>
       <h2 className={style.head}>{t('resume.jobs.title')}</h2>
       {jobs.map((job) => (
-        <div className={style.job}>
+        <div className={style.job} key={job}>
           <h3 className={style.company} aria-label={t(`resume.jobs.label.company`)}>
             {t(`resume.jobs.${job}.company`)}
           </h3>

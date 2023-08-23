@@ -28,7 +28,7 @@ export const Stack = () => {
       {takeKeyList(stack).map((stackKey) => {
         const techs = stack[stackKey as StackKey] as Techs;
         return (
-          <div className={style.stackItem}>
+          <div key={stackKey} className={style.stackItem}>
             <h3 className='subtitle'>
               {t(`resume.stack.${stackKey}.label`)}
             </h3>
@@ -37,7 +37,7 @@ export const Stack = () => {
               {takeKeyList(techs).map(tech => {
                 const subTechs = techs[tech as TechKey];
                 return (
-                  <li className={style.techItem}>
+                  <li key={tech} className={style.techItem}>
                     <span className={style.tech}>
                       <span
                         className={style.level}
@@ -54,7 +54,7 @@ export const Stack = () => {
                           <path d="M5.00014 13.9999L5 5.00003L7 5L7.00011 11.9999L14.5862 12V6.58581L21.0004 13L14.5862 19.4142L14.5862 14L5.00014 13.9999Z"></path>
                         </svg>
                         {takeKeyList(subTechs?.sub as GenericRecord).map(sub => 
-                          <li className={style.subItem}>
+                          <li key={sub} className={style.subItem}>
                             {t(`resume.stack.${stackKey}.${tech}.sub.${sub}`)}
                           </li>
                           )}

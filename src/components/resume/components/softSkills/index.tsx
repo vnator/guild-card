@@ -28,7 +28,7 @@ export const SoftSkills = () => {
       <div className={style.merits}>
         <h2 className={style.title}>{t('resume.softSkills.title')}</h2>
         <ul className={style.badgetList}>
-          {softSkillsKeys.map(i => <li className={style.badgetItem}>{t(`resume.softSkills.${i}`)}</li>)}
+          {softSkillsKeys.map(i => <li key={i} className={style.badgetItem}>{t(`resume.softSkills.${i}`)}</li>)}
         </ul>
       </div>
     
@@ -37,7 +37,7 @@ export const SoftSkills = () => {
         <h2 className={style.title}>{t('resume.interests.title')}</h2>
         <ul className={style.badgetList}>
           {hobies.map(hobie =>
-            <li className={style.badgetItem}>
+            <li className={style.badgetItem} key={hobie}>
               {t(`resume.interests.${hobie}`)}
             </li>
           )}
