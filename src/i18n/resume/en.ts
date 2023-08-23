@@ -186,6 +186,11 @@
         level: 9,
         years: 5,
       },
+      shopify: {
+        label: 'Shopify Liquid',
+        level: 8,
+        years: 4,
+      },
       astro: {
         label: 'Astro SSG (Static Site Generator)',
         level: 8,
@@ -442,12 +447,19 @@
       finished: '07/2019',
       describe: 'I Developed tools and automation processes. And I work in the analysis, architecture, and development of microservices and multi-tenancy platforms. I worked with several languages such as Erlang, Python, NodeJs, Java, and shell script when there was a need to manage server routines or integration tools.'
     },
+    nayp: {
+      company: 'Nayp CO.',
+      employ: 'Full Stack Developer',
+      started: '11/2015',
+      finished: '12/2019',
+      describe: 'I worked with the web development and maintain of a ecommerce plataform developed with React and Shopify liquid template.'
+    },
     polvo: {
       company: 'Polvo Digital',
       employ: 'Lead Front-end Developer',
       started: '07/2015',
       finished: '06/2016',
-      describe: 'I was the Front-end lead developer. I worked with the development and maintain client applications and Design system implementation.'
+      describe: 'I was the Front-end lead developer. I worked with the development and maintain client applications and Design system implementation, in e-commerces and marketplaces plataform like shopify, wordpress, and some custom headless CMS.'
     },
     freelance: {
       company: 'Freelancer Developer',

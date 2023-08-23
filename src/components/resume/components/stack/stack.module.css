@@ -1,0 +1,11 @@
+.stackList {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: calc(var(--space-lg) * 2);
+}
+
+.head {
+	width: 100%;
+	flex-grow: 1;
+}

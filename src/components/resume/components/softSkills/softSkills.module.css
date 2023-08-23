@@ -1,0 +1,7 @@
+.softSkills {
+	padding: calc(var(--space-lg) * 2);
+}
+
+.item {
+	padding: var(--space-lg) 0;
+}

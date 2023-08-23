@@ -1,0 +1,7 @@
+.works {
+	padding: calc(var(--space-lg) * 2);
+}
+
+.job {
+	padding: calc(var(--space) * 2) 0;
+}

@@ -12,15 +12,15 @@ export const SoftSkills = () => {
 
   return (
   
-  <div className={style.slot}>
-    <div className='SoftSkills'>
+  <div className={style.softSkills}>
+    <div className={style.item}>
       <h2 className='title'>{t('resume.softSkills.title')}</h2>
       <ul>
         {softSkillsKeys.map(i => <li>{t(`resume.softSkills.${i}`)}</li>)}
       </ul>
     </div>
   
-    <div className='Languages'>
+    <div className={style.item}>
       <h2 className='title'>{t('resume.langs.title')}</h2>
       <div className={style.half}>
         <p>
@@ -36,10 +36,10 @@ export const SoftSkills = () => {
           </p>
       </div>
 
-      <div>
-        <h2 className='title'>{t('resume.interests.title')}</h2>
-        {hobies.map(hobie => <li>{t(`resume.interests.${hobie}`)}</li>)}
-      </div>
+    </div>
+    <div className={style.item}>
+      <h2 className='title'>{t('resume.interests.title')}</h2>
+      {hobies.map(hobie => <li>{t(`resume.interests.${hobie}`)}</li>)}
     </div>
   </div>)
 }
