@@ -9,44 +9,37 @@ export const WorkExperience = () => {
 
   return (
     <div className={style.works}>
-      <h2 className='title'>{t('resume.jobs.title')}</h2>
+      <h2 className={`title ${style.head}`}>{t('resume.jobs.title')}</h2>
       {jobs.map((job) => (
         <div className={style.job}>
-          <h3 className='subtitle' aria-label={t(`resume.jobs.label.company`)}>
+          <h3 className={style.company} aria-label={t(`resume.jobs.label.company`)}>
             {t(`resume.jobs.${job}.company`)}
           </h3>
-          <div>
-            <strong>
+          <span className={style.employ}>
+            <strong className={style.label}>
               {t(`resume.jobs.label.employ`)}
             </strong>
-            <span>
+            <span className={style.value}>
               {t(`resume.jobs.${job}.employ`)}
             </span>
-          </div>
-          <div>
-            <strong>
-              {t(`resume.jobs.label.started`)}
+          </span>
+          <span className={style.dateStart}>
+            <strong className={style.label}>
+              {t(`resume.jobs.label.date`)}
             </strong>
-            <span>
+            <span className={style.value}>
               {t(`resume.jobs.${job}.started`)}
-            </span>
-          </div>
-          <div>
-            <strong>
-              {t(`resume.jobs.label.finished`)}
-            </strong>
-            <span>
               {t(`resume.jobs.${job}.finished`)}
             </span>
-          </div>
-          <div>
-            <strong>
+          </span>
+          <span className={style.description}>
+            <strong className={style.label}>
               {t(`resume.jobs.label.describe`)}
             </strong>
-            <span>
+            <span className={style.value}>
               {t(`resume.jobs.${job}.describe`)}
             </span>
-          </div>
+          </span>
         </div>
       ))}
     </div>
