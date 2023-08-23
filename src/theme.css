@@ -59,6 +59,7 @@
 	--size-button: 1.2rem;
 	--size-text: 1rem;
 	--size-caption: .85rem;
+	--size-min: .75rem;
 
 	/* effects */
 	--glass: transparent;
@@ -138,6 +139,7 @@ body, div, header, main, section, footer {
 		--size-button: .8rem;
 		--size-text: .6rem;
 		--size-caption: .4rem;
+		--size-min: .35rem;
 	}
 
 	.title {

@@ -34,10 +34,7 @@ export const Stack = () => {
             </h3>
 
             <ul className={style.techList}>
-                <li  className={style.techHead}>
-                  {t('resume.stack.label.level')}
-                </li>
-            {takeKeyList(techs).map(tech => {
+              {takeKeyList(techs).map(tech => {
                 const subTechs = techs[tech as TechKey];
                 return (
                   <li className={style.techItem}>
@@ -51,15 +48,20 @@ export const Stack = () => {
                         {t(`resume.stack.${stackKey}.${tech}.label`)}
                       </span>
                     </span>
-                    {/* {subTechs?.sub &&
-                      <ul>
+                    {subTechs?.sub &&
+                      <ul className={style.subList}>
+                        <svg viewBox="0 0 24 24" className={style.icon}>
+                          <path d="M5.00014 13.9999L5 5.00003L7 5L7.00011 11.9999L14.5862 12V6.58581L21.0004 13L14.5862 19.4142L14.5862 14L5.00014 13.9999Z"></path>
+                        </svg>
                         {takeKeyList(subTechs?.sub as GenericRecord).map(sub => 
-                          <li>{t(`resume.stack.${stackKey}.${tech}.sub.${sub}`)}</li>
+                          <li className={style.subItem}>
+                            {t(`resume.stack.${stackKey}.${tech}.sub.${sub}`)}
+                          </li>
                           )}
-                      </ul>} */}
+                      </ul>}
                   </li>
-              )
-            })}
+                )
+              })}
             </ul>
           </div>
         )
