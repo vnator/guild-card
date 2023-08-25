@@ -122,6 +122,10 @@
 		width: 100%;
 	}
 
+	.list {
+		margin-top: var(--zero);
+	}
+
 	.item {
 		width: 100%;
 		margin: calc(var(--space-sm) * 2) 0;
