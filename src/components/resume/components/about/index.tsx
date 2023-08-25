@@ -1,15 +1,15 @@
 import { useIntl } from '../../../../context/useInlt';
 import style from './about.module.css'
 
-export const About = () => {
+export const About = ({ bio = false }) => {
   const t = useIntl();
 
   return (
     <div className={style.about}>
-      <div className={style.bio}>
+      {bio && <div className={style.bio}>
         <h2 className='title'>{t('me.about.title')}</h2>
         <p>{t('me.about.bio')}</p>
-      </div>
+      </div>}
 
 
       <div className={style.eductation}>

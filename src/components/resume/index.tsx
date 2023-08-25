@@ -12,7 +12,7 @@ import { WorkExperience } from './components/workExperience';
 export const Resume = () => {
   return (
     <div>
-      <About />
+      <About bio />
       <Stack />
       <WorkExperience />
       <SoftSkills />

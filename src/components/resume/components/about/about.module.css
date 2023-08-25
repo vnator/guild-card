@@ -11,14 +11,18 @@
 .bio {
 	padding: calc(var(--space-lg) * 2);
 	flex-grow: 1;
-	border-bottom: 1px solid;
-	border-color: var(--primary);
 }
 
 .contacts {
 	width: 50%;
 	padding: calc(var(--space-lg) * 2);
 	border-left: 1px solid;
+	border-top: 1px solid;
+	border-color: var(--primary-light);
+}
+
+.eductation {
+	border-top: 1px solid;
 	border-color: var(--primary-light);
 }
 
