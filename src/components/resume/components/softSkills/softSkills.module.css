@@ -54,3 +54,11 @@
 .hobies {
 	max-width: 50%;
 }
+
+@media screen and (width <= 37.5em) {
+	.merits,
+	.hobies {
+		max-width: 100%;
+		margin-bottom: calc(var(--space-lg) * 2);
+	}
+}

@@ -101,3 +101,35 @@
 		border-right: var(--zero);
 	}
 }
+
+
+@media screen and (width <= 37.5em) {
+	.about {
+		flex-direction: column;
+	}
+
+	.bio p,
+	.eductation p {
+		font-size: var(--size-caption);
+	}
+	
+	.eductation {
+		width: 100%;
+	}
+	
+	.contacts {
+		width: 100%;
+	}
+
+	.item {
+		width: 100%;
+		margin: calc(var(--space-sm) * 2) 0;
+	}
+
+	.screen {
+		display: block;
+		width: 100%;
+		border-radius: 0;
+	}
+
+}
