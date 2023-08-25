@@ -69,7 +69,7 @@
 	color: var(--primary-light);
 }
 
-@media screen and (width <= 52em) {
+@media screen and (width <= 52em)  and (width > 37.5) {
 	.header {
 		--picture-size: 7rem;
 	}

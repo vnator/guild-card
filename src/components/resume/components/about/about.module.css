@@ -106,6 +106,7 @@
 @media screen and (width <= 37.5em) {
 	.about {
 		flex-direction: column;
+		padding-top: calc(var(--space-lg)*2);
 	}
 
 	.bio p,
