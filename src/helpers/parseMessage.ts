@@ -1,5 +1,5 @@
 import { parse } from '@formatjs/icu-messageformat-parser';
-import type { ParseMessage } from '../types';
+import type { ParseMessage } from '../i18n/types';
 
 export const parseMessages: ParseMessage = (nestedMessages, prefix = '') =>
   nestedMessages instanceof Object

@@ -1,11 +1,12 @@
 import { useIntl } from '../../../../context/useInlt';
 import { takeKeyList } from '../../../../helpers/takeAList';
 import { resumeEn } from '../../../../i18n/resume/en';
+import { resumePt } from '../../../../i18n/resume/pt';
 import style from './workExperience.module.css';
 
 export const WorkExperience = () => {
   const t = useIntl();
-  const jobs = takeKeyList(resumeEn.jobs)
+  const jobs = takeKeyList(resumePt.jobs)
 
   return (
     <div className={style.works}>

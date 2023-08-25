@@ -1,10 +1,12 @@
 ---
 import { App } from '../components/app'
-import { ui, defaultLang } from '../i18n';
+import { ui, getLang } from '../i18n';
 import '../theme.css';
+
+const lang = getLang()
 ---
 
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -13,7 +15,7 @@ import '../theme.css';
 		<title>Astro</title>
 	</head>
 	<body>
-		<App messages={ui[defaultLang]} >
+		<App messages={ui[lang]} >
 			<slot />
 		</App>
 	</body>

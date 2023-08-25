@@ -1,22 +1,22 @@
- export const resumeEn = {
+ export const resumePt = {
   title: 'Skills',
   softSkills: {
     title: 'Soft Skills',
-    feedback: "Structured Feedback",
-    responsability: "Strong Responsabilit Sense",
-    comunication: "Transparent Comunication",
-    knowledge: "Knowledge lover",
-    agile: "Agile, Scrum and kanban",
+    feedback: "Feedback Estruturado",
+    responsability: "Forte senso de Responsabilidade",
+    comunication: "Comunicação Transparente",
+    knowledge: "Amor por aprender",
+    agile: "Agile, Scrum e kanban",
   },
   langs: {
-    title: 'Languages',
+    title: 'Idiomas',
     portuguese: {
-      label: 'Portuguese',
-      level: 'Native Speaker'
+      label: 'Portugues',
+      level: 'Nativo'
     },
     english: {
-      label: 'English',
-      level: 'Intermedited to advenced Level with good writen and conversation'
+      label: 'Ingles',
+      level: 'Intermediário para avançado com boa escrita e conversação pra area tecnológica.'
     }
   },
   stack: {
@@ -399,71 +399,71 @@
   jobs: {
     title: 'Jobs',
     label: {
-      company: 'Company name',
-      employ: 'Ocupation: ',
-      date: 'Worked Date: ',
-      finished: 'Finished in: ',
-      describe: 'Description: '
+      company: 'Empresa',
+      employ: 'cargo: ',
+      date: 'data trabalhada: ',
+      finished: 'Finalizado em: ',
+      describe: 'Descrição: '
     },
     vnator: {
       company: 'VNATOR',
-      employ: 'Software Archtect and Founder',
-      started: 'between 11/2018',
-      finished: ' and today',
-      describe: 'I did analysis, architecture, and implementation of an eCommerce platform for dingles, using the AWS cloud, with lambda service in NodeJS, exposing a Graphql API using Apollo Server, Aurora RDS PostgreSQL, CloudFormation for management and control, Cognito, AWS S3 for dynamic storage of platform contents, SPA React development, AWS EventBridge for event flow management, development of lambda layers for dependencies and ORM (Object Relation Model). Today i maintain this project and work with another secret projects to the future of my company.',
+      employ: 'Software Archtect e Founder',
+      started: 'entre 11/2018',
+      finished: ' até hoje',
+      describe: 'Análise, arquitetura e implementação de uma plataforma de ecommerce para comercialização de arquivos digitais, utilizando a cloud da AWS, com serviço lambda em node, expondo um API Graphql utilizando Apollo Server, Aurora RDS PostgreSQL, CloudFormation para gestão e controle dos serviços bem como seus devidos parâmetros, Cognito e IAM para controle de acesso a plataforma, AWS S3 para armazenamento de forma dinâmica dos conteúdos da plataforma, desenvlvimento de SPA React, aplicação AWS EventBridge para gestao do fluxo de eventos, desenvolvimento de lambda layers para aplicação de dependencias e estratégia de isolamento da camada do ORM.',
     },
     pagarme: {
       company: 'PAGAR.ME',
       employ: 'Staff Front-End Software Engineer',
-      started: 'between 12/2022',
-      finished: ' and 07/2023.',
-      describe: 'Analysis, architecture and development of PAGAR.ME(finance) dashboard microfrontend platform. Development of new features and maintenance of existing solutions, migrating products to a development pattern based on microfronends with Typescript, React and Redux, consuming BFF APIs.',
+      started: 'entre 12/2022',
+      finished: ' até 07/2023.',
+      describe: 'Análise, arquitetura e desenvolvimento da plataforma microfrontend de dashboard PAGAR.ME. Desenvolvimento de novas funcionalidades e manutenção das soluções existentes, com migração dos produtos para um padrão de desenvolvimento baseado em microfronends com Typescript, React e Redux, consumindo APIs BFF.',
     },
     kovi: {
       company: 'KOVI',
       employ: 'Back-end Software Engineer Senior',
-      started: 'between 05/2022',
-      finished: ' and 12/2022.',
-      describe: 'Back-end NodeJS(typescript) developer, Analysis and development of serverless lambda and pipeline functions in NestJS and Express for a product focused on renting and purchasing vehicles remotely.Backend NodeJS(typescript) developer, Analysis and development of serverless lambda and pipeline functions in NestJS and Express for a product focused on renting and purchasing vehicles remotely.'
+      started: 'entre 05/2022',
+      finished: ' até 12/2022.',
+      describe: 'Desenvolvedor Backend NodeJS(typescript), Análise e desenvolvimento de serverless function e lambda pipelines em NestJS e Express para um produto focado em aluguel e compra de veículos remotamente.'
     },
     pedePronto: {
       company: 'PEDE PRONTO',
       employ: 'Software Engineer Senior',
-      started: 'between 06/2020',
-      finished: ' and 06/2022.',
-      describe: 'I worked with the analysis, architecture, and development of the PedePronto application. I did the migration from a monolithic architecture to a microservice and develop web client B2C (Business to Business) with React, Typescript, and GraphQL. I worked as the Full stack developer of OnBoarding service B2B (Business to Business) for new clients with React, Typescript, RestFull, and Python backend services.'
+      started: 'entre 06/2020',
+      finished: ' até 06/2022.',
+      describe: 'Análise, Arquitetura e Desenvolvimento da aplicação pede pronto. Atuei no desenvolvimento e manutenabilidade da solução e participei da migração da arquitetura de monolito para pulverização em micro-serviços, implementei o client web focado em B2C (Business to Busines), e o serviço de onboarding para entrada de novos clientes no domínio de onBoarding do backend e frontend no B2B (Business to Business).'
     },
     agrotis: {
       company: 'AGROTIS',
       employ: 'Front-end Software Architect',
-      started: 'between 07/2016',
-      finished: ' and 07/2019.',
-      describe: 'I Developed tools and automation processes. And I work in the analysis, architecture, and development of microservices and multi-tenancy platforms. I worked with several languages such as Erlang, Python, NodeJs, Java, and shell script when there was a need to manage server routines or integration tools.'
+      started: 'entre 07/2016',
+      finished: ' até 07/2019.',
+      describe: 'Responsável pelo setor de desenvolvimento frontend do time de arquitetura, definições de arquitetura da plataforma Agrotis, desenvolvimento ferramentas e automação de processos. Assim como análise, arquitetura, desenvolvimento e gestão das aplicações que eram responsabilidade do time de arquitetura, trabalhei com diversas linguagens como Erlang, Python, Node, Java, até mesmo shellScript quando havia necessidade de implantar rotinas servidores ou desenvolver ferramentas de integração.'
     },
     polvo: {
       company: 'Polvo Digital',
       employ: 'Lead Front-end Developer',
-      started: 'between 07/2015',
-      finished: ' and 06/2016.',
-      describe: 'I was the Front-end lead developer. I worked with the development and maintain client applications and Design system implementation, in e-commerces and marketplaces plataform like shopify, wordpress, and some custom headless CMS.'
+      started: 'entre 07/2015',
+      finished: ' até 06/2016.',
+      describe: 'Responsável pelo setor de desenvolvimento e definição de tecnologias frontend, assim como pelo time de desenvolvimento frontend que era composto desenvolvedores frontend e designers.      '
     },
     freelance: {
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
-      started: 'between 01/2011',
-      finished: ' and 11/2018.',
-      describe: 'Front-end development with React, Javascript, Angular and Jquery. Back-end development with Java (spring), Haskell, and NodeJS.'
+      started: 'entre 01/2011',
+      finished: ' até 11/2018.',
+      describe: 'Desenvolvimento autonomo em diversos projetos como desenvolvedor java, nodeJs ou Haskell. E com angular, jquery ou JSF como frontend frontend.'
     },
   },
   interests: {
-    title: 'My Hobies',
-    Basktball: 'Basketball',
-    survivalist: 'Survivalist',
-    book: 'Books <3',
-    hq: 'HQs',
+    title: 'Meus interesses',
+    Basktball: 'Basquete',
+    survivalist: 'Sobrevivencialismo',
+    book: 'Livros <3',
+    hq: 'HQs e mangas',
     videoGame: 'Video Games',
-    movie: 'Movies',
-    ranch: 'Ranch and Horses',
-    cook: 'Cook and Barbecue',
+    movie: 'Filmes e Series',
+    ranch: 'Fazenda e Cavalos',
+    cook: 'Cozinhar e churrasco',
   },
 }
