@@ -69,6 +69,18 @@
 	color: var(--primary-light);
 }
 
+@media screen and (width <= 52em) {
+	.header {
+		--picture-size: 7rem;
+	}
+
+	.name, .employ {
+		max-width: 40%;
+		font-size: var(--size-subtitle);
+	}
+}
+
+
 @media screen and (width <= 37.5em) {
 	.header {
 		--height: 6rem;
