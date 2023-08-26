@@ -11,12 +11,12 @@
   langs: {
     title: 'Languages',
     portuguese: {
-      label: 'Portuguese',
+      label: 'Portuguese: ',
       level: 'Native Speaker'
     },
     english: {
-      label: 'English',
-      level: 'Intermedited to advenced Level with good writen and conversation'
+      label: 'English: ',
+      level: 'I have an intermediate to advanced proficiency level in English with strong written and conversational skills.'
     }
   },
   stack: {
