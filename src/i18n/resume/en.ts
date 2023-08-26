@@ -410,49 +410,49 @@
       employ: 'Software Archtect and Founder',
       started: 'between 11/2018',
       finished: ' and today',
-      describe: 'I did analysis, architecture, and implementation of an eCommerce platform for dingles, using the AWS cloud, with lambda service in NodeJS, exposing a Graphql API using Apollo Server, Aurora RDS PostgreSQL, CloudFormation for management and control, Cognito, AWS S3 for dynamic storage of platform contents, SPA React development, AWS EventBridge for event flow management, development of lambda layers for dependencies and ORM (Object Relation Model). Today i maintain this project and work with another secret projects to the future of my company.',
+      describe: "I designed and built an eCommerce platform for dingles using AWS cloud services, Node.js Lambda functions, Apollo Server for GraphQL, Aurora RDS PostgreSQL, and AWS S3 for dynamic content storage. We managed resources with CloudFormation and handled user authentication through Cognito. I maintain this project and collaborate on other confidential projects for my company's future.",
     },
     pagarme: {
       company: 'PAGAR.ME',
       employ: 'Staff Front-End Software Engineer',
       started: 'between 12/2022',
       finished: ' and 07/2023.',
-      describe: 'Analysis, architecture and development of PAGAR.ME(finance) dashboard microfrontend platform. Development of new features and maintenance of existing solutions, migrating products to a development pattern based on microfronends with Typescript, React and Redux, consuming BFF APIs.',
+      describe: "I analyzed, architected, and developed the PAGAR.ME finance dashboard microfrontend platform. I was responsible for implementing new features and maintaining existing solutions, including the migration of products to a microfrontend development pattern. This was achieved using TypeScript, React, and Redux, with the consumption of BFF APIs.",
     },
     kovi: {
       company: 'KOVI',
       employ: 'Back-end Software Engineer Senior',
       started: 'between 05/2022',
       finished: ' and 12/2022.',
-      describe: 'Back-end NodeJS(typescript) developer, Analysis and development of serverless lambda and pipeline functions in NestJS and Express for a product focused on renting and purchasing vehicles remotely.Backend NodeJS(typescript) developer, Analysis and development of serverless lambda and pipeline functions in NestJS and Express for a product focused on renting and purchasing vehicles remotely.'
+      describe: "As a Back-end Node.js developer specializing in TypeScript, I contributed to the analysis and development of serverless Lambda and pipeline functions within the NestJS and Express frameworks. These functions were instrumental in the creation of a product centered around remote vehicle rental and purchase.",
     },
     pedePronto: {
       company: 'PEDE PRONTO',
       employ: 'Software Engineer Senior',
       started: 'between 06/2020',
       finished: ' and 06/2022.',
-      describe: 'I worked with the analysis, architecture, and development of the PedePronto application. I did the migration from a monolithic architecture to a microservice and develop web client B2C (Business to Business) with React, Typescript, and GraphQL. I worked as the Full stack developer of OnBoarding service B2B (Business to Business) for new clients with React, Typescript, RestFull, and Python backend services.'
+      describe: "I actively contributed to the development of the PedePronto application, guiding its transition from a monolithic architecture to a microservices-based framework. Additionally, I played a key role in crafting a web client for B2C (Business to Business) interactions, making use of React, TypeScript, and GraphQL. In another capacity, I served as a Full Stack developer for the B2B (Business to Business) Onboarding service, designed to assist new clients. In this role, I utilized React, TypeScript, Restful APIs, and Python backend services."
     },
     agrotis: {
       company: 'AGROTIS',
       employ: 'Front-end Software Architect',
       started: 'between 07/2016',
       finished: ' and 07/2019.',
-      describe: 'I Developed tools and automation processes. And I work in the analysis, architecture, and development of microservices and multi-tenancy platforms. I worked with several languages such as Erlang, Python, NodeJs, Java, and shell script when there was a need to manage server routines or integration tools.'
+      describe: "I was involved in the development of tools and automation processes, all while diving into the analysis, architecture, and development of microservices and multi-tenancy platforms. This meant working with various programming languages, like Erlang, Python, Node.js, Java, and shell scripting, mainly to manage server routines and integration tools."
     },
     polvo: {
       company: 'Polvo Digital',
       employ: 'Lead Front-end Developer',
       started: 'between 07/2015',
       finished: ' and 06/2016.',
-      describe: 'I was the Front-end lead developer. I worked with the development and maintain client applications and Design system implementation, in e-commerces and marketplaces plataform like shopify, wordpress, and some custom headless CMS.'
+      describe: "I held the position of Front-end lead developer, where my responsibilities included the development and maintenance of client applications. Additionally, I played a key role in implementing design systems for e-commerce and marketplace platforms like Shopify, WordPress, and various custom headless CMS solutions."
     },
     freelance: {
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
       started: 'between 01/2011',
       finished: ' and 11/2018.',
-      describe: 'Front-end development with React, Javascript, Angular and Jquery. Back-end development with Java (spring), Haskell, and NodeJS.'
+      describe: "As a Front-end developer, I was heavily involved in crafting user interfaces using technologies like React, JavaScript, Angular, and jQuery. On the Back-end, I took on the responsibility of building the server-side infrastructure, utilizing languages such as Java (Spring), Haskell, and Node.js."
     },
   },
   interests: {

@@ -11,7 +11,7 @@ export const meEn = {
   employ: "Software Engineer",
   about: {
     title: "About me",
-    bio: "I'm a software developer generalist/specialist (Pi Shaped), with hard knowledge in Javascript and Functional Programming, and generalist skills in backend Nodejs, Java,  and Rust. I started programming in 2007, and between 2008 and 2012 I did my System Integration Degree at the University of Central Paraná. I've worked as Front-end, Back-end, or FullStack developer but my main Area ever is Front-end, and today Rust and WebAssembly are my focus for the future."
+    bio: "I am a software developer with a broad skill set. My proficiency extends to JavaScript and Functional Programming, and I have a strong foundation in backend development, particularly with Node.js, Java, and Rust. My journey in programming commenced in 2007, and I completed my System Integration Degree at the University of Central Paraná between 2008 and 2012. Throughout my career, I have assumed various roles in the field of development, but my core expertise remains in Front-end development. At present, I am fully committed to Rust and WebAssembly for my upcoming projects."
   },
   contact: {
     title: "My Contacts and profiles",
@@ -34,6 +34,6 @@ export const meEn = {
   },
   education: {
     title: "Formal Education",
-    bachelor: "System Information Degree College at UCP(University of Central Parana), Located at Pitanga City in State of Parana Brazil, between 2008 and 2012."
+    bachelor: "I pursued a System Information Degree at UCP (University of Central Parana), situated in the city of Pitanga in the state of Parana, Brazil, from 2008 to 2012."
   }
 }
