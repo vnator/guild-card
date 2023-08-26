@@ -15,12 +15,12 @@ export const SoftSkills = () => {
       <div className={style.languages}>
         <h2 className='title'>{t('resume.langs.title')}</h2>
         <p className={style.lang}>
-          <strong>{t('resume.langs.portuguese.label')}:</strong>
+          <strong>{t('resume.langs.portuguese.label')}</strong>
           <span>{t('resume.langs.portuguese.level')}</span>
         </p>
 
         <p className={style.lang}>
-          <strong>{t('resume.langs.english.label')}:</strong>
+          <strong>{t('resume.langs.english.label')}</strong>
           <span>{t('resume.langs.english.level')}</span>
         </p>
       </div>
