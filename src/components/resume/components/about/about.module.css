@@ -24,6 +24,8 @@
 .eductation {
 	border-top: 1px solid;
 	border-color: var(--primary-light);
+	width: 50%;
+	padding: calc(var(--space-lg) * 2);
 }
 
 .list {
@@ -36,9 +38,9 @@
 
 .screen {
 	text-decoration: none;
-	color: var(--primary-light);
+	color: var(--primary-lightest);
 	padding: var(--space) var(--space-lg);
-	border: 1px solid var(--primary-light);
+	border: 1px solid var(--primary-lightest);
 	border-radius: var(--radius-lg);
 	transition: 0.2s all ease;
 	height: var(--contact-size);
@@ -47,15 +49,9 @@
 
 .screen:hover {
 	color: var(--primary-darkest);
-	background: var(--primary-light);
-	border-color: var(--primary-light);
+	background: var(--primary-lightest);
+	border-color: var(--primary-lightest);
 }
-
-.eductation {
-	width: 50%;
-	padding: calc(var(--space-lg) * 2);
-}
-
 
 @media screen {
 	.list {

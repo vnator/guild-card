@@ -1,8 +1,9 @@
 :root {
 	/* colors */
 	--primary: #2e3c51;
-	--primary-light: #324661;
-	--primary-lightest: #5f83b3;
+	--primary-light: #435975;
+	--primary-lightest: #7895bb;
+	--primary-shine: #8fc9ff;
 	--primary-dark: #1d242e;
 	--primary-darkest: #10151d;
 
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6, .title {
 
 span, dt, dd, ul, li, ol, a, button, input, label, p, strong {
 	font-family: var(--font-base);
-	color: var(--gray-600);
+	color: var(--white-600);
 	font-size: var(--size-text);
 }
 

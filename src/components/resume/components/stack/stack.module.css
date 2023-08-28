@@ -14,6 +14,17 @@
 	flex-grow: 1;
 	padding: calc(var(--space-lg) * 2) 0 var(--space-lg);
 	text-align: center;
+	color: var(--white);
+	font-size: var(--size-btn);
+	text-transform: uppercase;
+	margin-bottom: var(--space);
+}
+
+.stackHead {
+	color: var(--white-600);
+	font-size: var(--size-text);
+	text-transform: uppercase;
+	margin-bottom: var(--space);
 }
 
 .stackItem {
@@ -78,7 +89,7 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: var(--primary-dark);
+	background-color: var(--primary);
     background-image: var(--gradient-grid-30);
 	background-size: 6px 6px;
 	border-right: 1px solid var(--primary);
@@ -90,7 +101,7 @@
 	display: flex;	
 	align-items: center;
 	padding-left: var(--space);
-	color: var(--white-400);
+	color: var(--white-600);
 	position: absolute;
 	left: 0;
 	top: 0;

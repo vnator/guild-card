@@ -10,7 +10,7 @@
 	font-size: var(--size-text);
 	text-transform: uppercase;
 	margin-bottom: var(--space);
-	color: var(--white-400);
+	color: var(--white);
 }
 
 .badgetList {
@@ -23,12 +23,12 @@
 
 .badgetItem {
 	padding: var(--badge-pad);
-	border: 1px solid var(--primary);
+	border: 1px solid var(--primary-shine);
 	margin-right: var(--space);
 	margin-bottom: var(--space);
 	border-radius: var(--radius-lg);
 	font-size: var(--size-min);
-	color: var(--primary-lightest);
+color: var(--primary-shine);
 }
 
 .languages {

@@ -24,12 +24,12 @@ export const Stack = () => {
 
   return (
     <div className={style.stackList}>
-      <h2 className={`title ${style.head}`}>{t('resume.stack.title')}</h2>
+      <h2 className={style.head}>{t('resume.stack.title')}</h2>
       {takeKeyList(stack).map((stackKey) => {
         const techs = stack[stackKey as StackKey] as Techs;
         return (
           <div key={stackKey} className={style.stackItem}>
-            <h3 className='subtitle'>
+            <h3 className={style.stackHead}>
               {t(`resume.stack.${stackKey}.label`)}
             </h3>
 

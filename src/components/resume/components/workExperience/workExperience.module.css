@@ -24,7 +24,7 @@
 
 .company {
 	font-size: var(--size-text);
-	color: var(--white-500);
+	color: var(--primary-shine);
 }
 
 .label {
