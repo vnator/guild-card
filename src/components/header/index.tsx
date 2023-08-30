@@ -1,5 +1,5 @@
 import style from './header.module.css'
-import profile from '../../assets/profile.jpeg'
+import profile from '../../assets/profile.jpg'
 import { useIntl } from "../../context/useInlt";
 
 export const Header = () => {
