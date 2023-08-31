@@ -11,7 +11,7 @@ export const mePt = {
   employ: "Frontend Staff Engineer",
   about: {
     title: "Sobre mim",
-    bio: "Sou um desenvolvedor de software generalista/especialista (Pi Shaped), com conhecimento sólido em Javascript e Programação Funcional, já minhas habilidades generalistas em backend são com Nodejs, Java e Rust. Comecei a programar em 2007 e entre 2008 e 2012 fiz minha graduação em Sistemas de Informação na Universidade do Centro do Paraná (UCP - Pitanga). Venho desde então trabalhando como desenvolvedor Front-end, Back-end ou FullStack, mas minha principal área sempre foi e será Front-end, hoje Rust e WebAssembly são meu foco para estudos futuros."
+    bio: "Sou um desenvolvedor de software generalista/especialista (Pi Shaped), com conhecimento sólido em Javascript e Programação Funcional, já minhas habilidades generalistas em backend são com Nodejs, Java e Rust. Comecei a programar em 2006 e entre 2008 e 2012 fiz minha graduação em Sistemas de Informação na Universidade do Centro do Paraná (UCP - Pitanga). Venho desde então trabalhando como desenvolvedor Front-end, Back-end ou FullStack, mas minha principal área sempre foi e será Front-end, hoje Rust e WebAssembly são meu foco para estudos futuros."
   },
   contact: {
     title: "Meus Contatos",
