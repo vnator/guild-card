@@ -57,13 +57,13 @@ export const About = ({ bio = false }) => {
                 <strong>
                   {t('me.contact.github.label')}
                 </strong>
-                <a href={`tel:${t('me.contact.github.value')}`}>
+                <a href={t('me.contact.github.value')}>
                   {t('me.contact.github.value')}
                 </a>
             </div>
 
             
-              <a  className={style.screen} href={`tel:${t('me.contact.github.value')}`}>
+              <a  className={style.screen} href={t('me.contact.github.value')}>
                 {t('me.contact.github.label')}
               </a>
             
@@ -73,13 +73,13 @@ export const About = ({ bio = false }) => {
                 <strong>
                   {t('me.contact.linkedin.label')}
                 </strong>
-                <a href={`tel:${t('me.contact.linkedin.value')}`}>
+                <a href={t('me.contact.linkedin.value')}>
                   {t('me.contact.linkedin.value')}
                 </a>
             </div>
 
             
-              <a  className={style.screen} href={`tel:${t('me.contact.linkedin.value')}`}>
+              <a  className={style.screen} href={t('me.contact.linkedin.value')}>
                 {t('me.contact.linkedin.label')}
               </a>
             
