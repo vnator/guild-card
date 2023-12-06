@@ -408,50 +408,50 @@
     vnator: {
       company: 'VNATOR',
       employ: 'Software Archtect and Founder',
-      started: 'between 11/2018',
-      finished: ' and today',
+      started: 'from 11/2018',
+      finished: ' present',
       describe: "I designed and built an eCommerce platform for dingles using AWS cloud services, Node.js Lambda functions, Apollo Server for GraphQL, Aurora RDS PostgreSQL, and AWS S3 for dynamic content storage. We managed resources with CloudFormation and handled user authentication through Cognito. I maintain this project and collaborate on other confidential projects for my company's future.",
     },
     pagarme: {
       company: 'PAGAR.ME',
       employ: 'Staff Front-End Software Engineer',
-      started: 'between 12/2022',
-      finished: ' and 07/2023.',
+      started: 'from 12/2022',
+      finished: ' at 07/2023.',
       describe: "I analyzed, architected, and developed the PAGAR.ME finance dashboard microfrontend platform. I was responsible for implementing new features and maintaining existing solutions, including the migration of products to a microfrontend development pattern. This was achieved using TypeScript, React, and Redux, with the consumption of BFF APIs.",
     },
     kovi: {
       company: 'KOVI',
       employ: 'Back-end Software Engineer Senior',
-      started: 'between 05/2022',
-      finished: ' and 12/2022.',
+      started: 'from 05/2022',
+      finished: ' at 12/2022.',
       describe: "As a Back-end Node.js developer specializing in TypeScript, I contributed to the analysis and development of serverless Lambda and pipeline functions within the NestJS and Express frameworks. These functions were instrumental in the creation of a product centered around remote vehicle rental and purchase.",
     },
     pedePronto: {
       company: 'PEDE PRONTO',
       employ: 'Software Engineer Senior',
-      started: 'between 06/2020',
-      finished: ' and 06/2022.',
+      started: 'from 06/2020',
+      finished: ' at 06/2022.',
       describe: "I actively contributed to the development of the PedePronto application, guiding its transition from a monolithic architecture to a microservices-based framework. Additionally, I played a key role in crafting a web client for B2C (Business to Business) interactions, making use of React, TypeScript, and GraphQL. In another capacity, I served as a Full Stack developer for the B2B (Business to Business) Onboarding service, designed to assist new clients. In this role, I utilized React, TypeScript, Restful APIs, and Python backend services."
     },
     agrotis: {
       company: 'AGROTIS',
       employ: 'Front-end Software Architect',
-      started: 'between 07/2016',
-      finished: ' and 07/2019.',
+      started: 'from 07/2016',
+      finished: ' at 07/2019.',
       describe: "I was involved in the development of tools and automation processes, all while diving into the analysis, architecture, and development of microservices and multi-tenancy platforms. This meant working with various programming languages, like Erlang, Python, Node.js, Java, and shell scripting, mainly to manage server routines and integration tools."
     },
     polvo: {
       company: 'Polvo Digital',
       employ: 'Lead Front-end Developer',
-      started: 'between 07/2015',
-      finished: ' and 06/2016.',
+      started: 'from 07/2015',
+      finished: ' at 06/2016.',
       describe: "I held the position of Front-end lead developer, where my responsibilities included the development and maintenance of client applications. Additionally, I played a key role in implementing design systems for e-commerce and marketplace platforms like Shopify, WordPress, and various custom headless CMS solutions."
     },
     freelance: {
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
       started: 'between 01/2011',
-      finished: ' and 11/2018.',
+      finished: ' at 11/2018.',
       describe: "As a Front-end developer, I was heavily involved in crafting user interfaces using technologies like React, JavaScript, Angular, and jQuery. On the Back-end, I took on the responsibility of building the server-side infrastructure, utilizing languages such as Java (Spring), Haskell, and Node.js."
     },
   },

@@ -57,13 +57,13 @@ export const About = ({ bio = false }) => {
                 <strong>
                   {t('me.contact.github.label')}
                 </strong>
-                <a href={t('me.contact.github.value')}>
+                <a href={t('me.contact.github.value')} target="_blank">
                   {t('me.contact.github.value')}
                 </a>
             </div>
 
             
-              <a  className={style.screen} href={t('me.contact.github.value')}>
+              <a  className={style.screen} href={t('me.contact.github.value')} target="_blank">
                 {t('me.contact.github.label')}
               </a>
             
@@ -73,17 +73,34 @@ export const About = ({ bio = false }) => {
                 <strong>
                   {t('me.contact.linkedin.label')}
                 </strong>
-                <a href={t('me.contact.linkedin.value')}>
+                <a href={t('me.contact.linkedin.value')} target="_blank">
                   {t('me.contact.linkedin.value')}
                 </a>
             </div>
 
             
-              <a  className={style.screen} href={t('me.contact.linkedin.value')}>
+              <a  className={style.screen} href={t('me.contact.linkedin.value')} target="_blank">
                 {t('me.contact.linkedin.label')}
               </a>
             
           </li>
+          <li className={style.item}>
+            <div className={style.print}>
+                <strong>
+                  {t('me.contact.exercism.label')}
+                </strong>
+                <a href={t('me.contact.exercism.value')} target="_blank">
+                  {t('me.contact.exercism.value')}
+                </a>
+            </div>
+
+            
+              <a  className={style.screen} href={t('me.contact.exercism.value')} target="_blank">
+                {t('me.contact.exercism.label')}
+              </a>
+            
+          </li>
+
         </ul>
       </div>
 

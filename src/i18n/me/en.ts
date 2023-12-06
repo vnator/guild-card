@@ -3,6 +3,7 @@ import {
   ME_GITHUB as github,
   ME_LINKEDIN as linkedin,
   ME_PHONE as phone,
+  ME_EXERCISM as exercism,
 } from '../../helpers/constants'
 
 
@@ -31,6 +32,10 @@ export const meEn = {
       label: 'Number phone',
       value: phone
     },
+    exercism: {
+      label: 'Exercism',
+      value: exercism
+    }
   },
   education: {
     title: "Formal Education",
