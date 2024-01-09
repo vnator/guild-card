@@ -16,7 +16,7 @@
     },
     english: {
       label: 'English: ',
-      level: 'I have an intermediate to advanced proficiency level in English with strong written and conversational skills.'
+      level: "I have an advanced level of proficiency in English with strong written and conversational skills."
     }
   },
   stack: {
@@ -410,49 +410,56 @@
       employ: 'Software Archtect and Founder',
       started: 'from 11/2018',
       finished: ' present',
-      describe: "I designed and built an eCommerce platform for dingles using AWS cloud services, Node.js Lambda functions, Apollo Server for GraphQL, Aurora RDS PostgreSQL, and AWS S3 for dynamic content storage. We managed resources with CloudFormation and handled user authentication through Cognito. I maintain this project and collaborate on other confidential projects for my company's future.",
+      describe: "As a skilled software engineer, I specialize in analyzing, designing, and implementing eCommerce platforms tailored for dingles. Leveraging AWS cloud services, I use Lambda functions in Node.js to build scalable solutions. The platform includes a GraphQL API with Apollo Server, backed by Aurora RDS PostgreSQL for reliable database management. CloudFormation handles infrastructure, Cognito ensures secure authentication, and AWS S3 stores dynamic content. The frontend is a Single Page Application (SPA) in React. I seamlessly manage event flows with AWS EventBridge and handle dependencies and ORM using lambda layers. This holistic approach delivers a robust, scalable, and feature-rich eCommerce platform for dingles.",
+    },
+    nzn: {
+      company: 'NZN',
+      employ: 'Tech Lead',
+      started: 'from 10/2023',
+      finished: ' pressent.',
+      describe: "In the Architect and Tech Leader position with Node.js, LoopBack, Strapi, and Next.js in our stack, running above a Kubernetes server, I spearhead the strategic design and management of developer teams focused on editorial products. I am responsible for crafting architectural patterns, designing scalable systems, and providing leadership in technology adoption. My role involves overseeing team dynamics, enforcing high development standards, and implementing automation strategies to optimize workflows. I prioritize documentation for architectural decisions and development processes, ensuring clarity and knowledge sharing. Additionally, I evaluate and integrate emerging technologies within the Node.js ecosystem and related frameworks, driving innovation. My commitment lies in delivering high-quality, scalable solutions through effective team collaboration and continuous improvement.",
     },
     pagarme: {
       company: 'PAGAR.ME',
       employ: 'Staff Front-End Software Engineer',
       started: 'from 12/2022',
       finished: ' at 07/2023.',
-      describe: "I analyzed, architected, and developed the PAGAR.ME finance dashboard microfrontend platform. I was responsible for implementing new features and maintaining existing solutions, including the migration of products to a microfrontend development pattern. This was achieved using TypeScript, React, and Redux, with the consumption of BFF APIs.",
+      describe: "At Pagar.me I my responsabilites as a Staff software engineer, I played a pivotal role in analyzing, architecting, and developing the PAGAR.ME finance dashboard microfrontend platform. My responsibilities included implementing new features, maintaining existing solutions, and successfully migrating products to a microfrontend development pattern. This involved extensive use of TypeScript, React, and Redux, with seamless integration and consumption of BFF APIs.",
     },
     kovi: {
       company: 'KOVI',
       employ: 'Back-end Software Engineer Senior',
       started: 'from 05/2022',
       finished: ' at 12/2022.',
-      describe: "As a Back-end Node.js developer specializing in TypeScript, I contributed to the analysis and development of serverless Lambda and pipeline functions within the NestJS and Express frameworks. These functions were instrumental in the creation of a product centered around remote vehicle rental and purchase.",
+      describe: "As a Senior Backend Software Engineer At Kovi with expertise in Node.js and TypeScript, I played a key role in analyzing and developing serverless Lambda and pipeline functions using NestJS and Express frameworks. These functions played a crucial role in crafting a product focused on remote vehicle rental and purchase, showcasing my proficiency in building robust and scalable backend solutions.",
     },
     pedePronto: {
       company: 'PEDE PRONTO',
       employ: 'Software Engineer Senior',
       started: 'from 06/2020',
       finished: ' at 06/2022.',
-      describe: "I actively contributed to the development of the PedePronto application, guiding its transition from a monolithic architecture to a microservices-based framework. Additionally, I played a key role in crafting a web client for B2C (Business to Business) interactions, making use of React, TypeScript, and GraphQL. In another capacity, I served as a Full Stack developer for the B2B (Business to Business) Onboarding service, designed to assist new clients. In this role, I utilized React, TypeScript, Restful APIs, and Python backend services."
+      describe: "As a Senior Fullstack Software Engineer Pede Pronto (we start like Onyo =D), I played a pivotal role in the evolution of the PedePronto application, leading its transition from a monolithic architecture to a dynamic microservices-based framework. My significant contributions extended to crafting an innovative web client tailored for B2C interactions, employing React, TypeScript, and GraphQL to enhance user experiences. Concurrently, I served as the Full Stack developer for the B2B Onboarding service, providing essential support for new clients through the seamless integration of React, TypeScript, Restful APIs, and Python backend services. These multifaceted endeavors showcase my proficiency in driving architectural transformations and delivering comprehensive solutions across the entire software stack"
     },
     agrotis: {
       company: 'AGROTIS',
       employ: 'Front-end Software Architect',
       started: 'from 07/2016',
       finished: ' at 07/2019.',
-      describe: "I was involved in the development of tools and automation processes, all while diving into the analysis, architecture, and development of microservices and multi-tenancy platforms. This meant working with various programming languages, like Erlang, Python, Node.js, Java, and shell scripting, mainly to manage server routines and integration tools."
+      describe: "In Agrotis I worked as software developer and Software Architect, I actively contributed to developing tools and automation processes. This involved deep engagement in the analysis, architecture, and development of microservices and multi-tenancy platforms. Utilizing a range of programming languages such as Erlang, Python, Node.js, Java, and shell scripting, my primary focus was on managing server routines and integration tools, showcasing versatility and expertise in crafting robust and scalable software solutions."
     },
     polvo: {
       company: 'Polvo Digital',
       employ: 'Lead Front-end Developer',
       started: 'from 07/2015',
       finished: ' at 06/2016.',
-      describe: "I held the position of Front-end lead developer, where my responsibilities included the development and maintenance of client applications. Additionally, I played a key role in implementing design systems for e-commerce and marketplace platforms like Shopify, WordPress, and various custom headless CMS solutions."
+      describe: "I held the position of Front-end lead developer, I specialize in crafting visually appealing and responsive user interfaces. My proficiency extends to developing and maintaining style guides, ensuring consistent and cohesive designs across projects. Leveraging my skills in React and Vue, I bring dynamic and interactive elements to the forefront of user experiences. Through collaborative efforts, I contribute to creating seamless and engaging frontend solutions, showcasing my dedication to delivering high-quality, aesthetically pleasing applications."
     },
     freelance: {
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
       started: 'between 01/2011',
       finished: ' at 11/2018.',
-      describe: "As a Front-end developer, I was heavily involved in crafting user interfaces using technologies like React, JavaScript, Angular, and jQuery. On the Back-end, I took on the responsibility of building the server-side infrastructure, utilizing languages such as Java (Spring), Haskell, and Node.js."
+      describe: "Throughout my extensive freelance career, I have thrived in part-time positions as a Full Stack Developer, showcasing proficiency in a diverse set of technologies. On the frontend, I specialized in crafting dynamic user interfaces using React, JavaScript, Angular, and jQuery. Simultaneously, I played a pivotal role in developing robust server-side infrastructures, leveraging languages such as Java (Spring), Haskell, and Node.js. This multifaceted experience reflects my adaptability and long-standing commitment to delivering comprehensive solutions across the entire development stack"
     },
   },
   interests: {

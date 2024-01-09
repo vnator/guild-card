@@ -16,7 +16,7 @@
     },
     english: {
       label: 'Ingles',
-      level: 'Intermediário para avançado com boa escrita e conversação pra area tecnológica.'
+      level: 'Avançado com boa escrita e conversação e proeficiencia na área de tecnológica.'
     }
   },
   stack: {
@@ -411,6 +411,13 @@
       started: 'entre 11/2018',
       finished: ' até hoje',
       describe: 'Análise, arquitetura e implementação de uma plataforma de ecommerce para comercialização de arquivos digitais, utilizando a cloud da AWS, com serviço lambda em node, expondo um API Graphql utilizando Apollo Server, Aurora RDS PostgreSQL, CloudFormation para gestão e controle dos serviços bem como seus devidos parâmetros, Cognito e IAM para controle de acesso a plataforma, AWS S3 para armazenamento de forma dinâmica dos conteúdos da plataforma, desenvlvimento de SPA React, aplicação AWS EventBridge para gestao do fluxo de eventos, desenvolvimento de lambda layers para aplicação de dependencias e estratégia de isolamento da camada do ORM.',
+    },
+    nzn: {
+      company: 'NZN',
+      employ: 'Tech Lead',
+      started: 'from 10/2023',
+      finished: ' pressent.',
+      describe: "Na posição de Arquiteto e Líder Tecnológico com Node.js, LoopBack, Strapi e Next.js em nossa plataforma, executando sobre um servidor Kubernetes, lidero o design estratégico e a gestão de equipes de desenvolvedores focadas em produtos editoriais. Sou responsável por criar padrões arquiteturais, projetar sistemas escaláveis e liderar a adoção de tecnologias. Meu papel envolve supervisionar a dinâmica da equipe, garantir altos padrões de desenvolvimento e implementar estratégias de automação para otimizar fluxos de trabalho. Dou prioridade à documentação de decisões arquiteturais e processos de desenvolvimento, garantindo clareza e compartilhamento de conhecimento. Além disso, avalio e integro tecnologias emergentes no ecossistema Node.js e frameworks relacionados, impulsionando a inovação. Minha dedicação está em fornecer soluções de alta qualidade e escaláveis por meio da colaboração efetiva da equipe e melhoria contínua.",
     },
     pagarme: {
       company: 'PAGAR.ME',
