@@ -9,7 +9,7 @@ import type { AppComponent } from './app.model'
 export const App: AppComponent = ({ children, messages }) => (
   <IntlContext.Provider value={messages}>
     <main className={style.template}>
-      <div className={style.background} />
+      <div className={style.background} /> 
       <Container>
         <div className={style.content}>
           <Header />

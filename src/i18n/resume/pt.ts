@@ -458,8 +458,8 @@
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
       started: 'entre 01/2011',
-      finished: ' até 11/2018.',
-      describe: 'Desenvolvimento autonomo em diversos projetos como desenvolvedor java, nodeJs ou Haskell. E com angular, jquery ou JSF como frontend frontend.'
+      finished: ' até 08/2015.',
+      describe: 'Desenvolvimento autonomo em diversos projetos como desenvolvedor java ou NodeJS. E com angular, jquery ou JSF como frontend frontend.'
     },
   },
   interests: {

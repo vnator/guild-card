@@ -458,8 +458,8 @@
       company: 'Freelancer Developer',
       employ: 'fullstack developer',
       started: 'between 01/2011',
-      finished: ' at 11/2018.',
-      describe: "Throughout my extensive freelance career, I have thrived in part-time positions as a Full Stack Developer, showcasing proficiency in a diverse set of technologies. On the frontend, I specialized in crafting dynamic user interfaces using React, JavaScript, Angular, and jQuery. Simultaneously, I played a pivotal role in developing robust server-side infrastructures, leveraging languages such as Java (Spring), Haskell, and Node.js. This multifaceted experience reflects my adaptability and long-standing commitment to delivering comprehensive solutions across the entire development stack"
+      finished: ' at 08/2015.',
+      describe: "During my initial years as a developer, I immersed myself in various projects and startups, contributing as a Full Stack Developer. I honed my skills in crafting dynamic user interfaces with technologies like React, JavaScript, Angular, and jQuery. On the server side, I played a key role in building robust infrastructures using languages such as Java (Spring) and Node.js. This diverse experience underscores my adaptability and enduring dedication to delivering comprehensive solutions across the development stack. These formative years were characterized by engagement in multiple projects, startups, and the adoption of a pure Go methodology."
     },
   },
   interests: {
