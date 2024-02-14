@@ -87,16 +87,16 @@ export const About = ({ bio = false }) => {
           <li className={style.item}>
             <div className={style.print}>
                 <strong>
-                  {t('me.contact.exercism.label')}
+                  {t('me.contact.leetcode.label')}
                 </strong>
-                <a href={t('me.contact.exercism.value')} target="_blank">
-                  {t('me.contact.exercism.value')}
+                <a href={t('me.contact.leetcode.value')} target="_blank">
+                  {t('me.contact.leetcode.value')}
                 </a>
             </div>
 
             
-              <a  className={style.screen} href={t('me.contact.exercism.value')} target="_blank">
-                {t('me.contact.exercism.label')}
+              <a  className={style.screen} href={t('me.contact.leetcode.value')} target="_blank">
+                {t('me.contact.leetcode.label')}
               </a>
             
           </li>

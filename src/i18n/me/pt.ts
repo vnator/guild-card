@@ -3,7 +3,7 @@ import {
   ME_GITHUB as github,
   ME_LINKEDIN as linkedin,
   ME_PHONE as phone,
-  ME_EXERCISM as exercism
+  LEET_CODE as leetcode
 } from '../../helpers/constants'
 
 
@@ -32,9 +32,9 @@ export const mePt = {
       label: 'Número de telefone',
       value: phone
     },
-    exercism: {
-      label: 'Exercism',
-      value: exercism
+    leetcode: {
+      label: 'LeetCode',
+      value: leetcode
     }
   },
   education: {
