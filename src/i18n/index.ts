@@ -12,7 +12,7 @@ export const languages = {
   ptBR: 'Brazilian Portuguese',
 };
 
-export const getLang = (): LANG => LANG.PT;
+export const getLang = (): LANG => LANG.EN;
 
 export const ui = {
   [LANG.EN]: parseMessages({
